@@ -18,20 +18,26 @@ export default function Home() {
 						<div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
 							<div
 								href="https://nextjs.org/docs"
-								className="p-6 mt-6 flex flex-col items-center justify-center border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+								className="p-6 mt-6 flex flex-col items-center justify-center border border-gray-300 shadow-md w-96 rounded-xl "
 							>
-								<h3 className="text-2xl font-bold">HTML5 &rarr;</h3>
-								<Image src="/icons/html5.png" width={150} height={150} />
+								<Image
+									src="/icons/PinClipart.com_eclipse-swt-plugin_3368555.png"
+									width={300}
+									height={150}
+								/>
 							</div>
-							<a
-								href="https://nextjs.org/learn"
-								className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-							>
-								<h3 className="text-2xl font-bold">Learn &rarr;</h3>
-								<p className="mt-4 text-xl">
-									Learn about Next.js in an interactive course with quizzes!
-								</p>
-							</a>
+							<div className=" flex gap-3 justify-center p-9 mt-6 text-left border border-gray-300 shadow-md w-96 rounded-xl">
+								<Image
+									src="/icons/12340106921551942641.svg"
+									width={110}
+									height={110}
+								/>
+								<Image
+									src="/icons/8905768601551941711 (1).svg"
+									width={125}
+									height={125}
+								/>
+							</div>
 							<a
 								href="https://github.com/vercel/next.js/tree/master/examples"
 								className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
