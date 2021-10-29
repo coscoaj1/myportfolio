@@ -25,7 +25,7 @@ function Header() {
 		>
 			<div className="flex-grow">
 				<button>
-					<Image src="/icons/AC.png" height={72} width={72} />
+					<Image src="/icons/AC (5).png" height={100} width={100} />
 				</button>
 			</div>
 			<div className="flex text-xl gap-6">
