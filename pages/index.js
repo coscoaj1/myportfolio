@@ -12,21 +12,18 @@ export default function Home() {
 			<Hero />
 
 			<div>
-				<main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+				<main className="flex flex-col items-center justify-center w-full bg-black flex-1 px-20 text-center">
 					<section>
-						<p className="mt-3 text-5xl">skills</p>
+						<p className="mt-3 text-5xl text-white">skills</p>
 						<div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-							<div
-								href="https://nextjs.org/docs"
-								className="p-6 mt-6 flex flex-col items-center justify-center border border-gray-300 shadow-md w-96 rounded-xl "
-							>
+							<div className="p-6 mt-6 flex flex-col items-center justify-center bg-gray-300 border border-gray-300 shadow-md w-96 rounded-xl ">
 								<Image
 									src="/icons/PinClipart.com_eclipse-swt-plugin_3368555.png"
 									width={300}
 									height={150}
 								/>
 							</div>
-							<div className=" flex gap-3 justify-center p-9 mt-6 text-left border border-gray-300 shadow-md w-96 rounded-xl">
+							<div className=" flex gap-3 justify-center p-9 mt-6 text-left bg-gray-300 shadow-md w-96 rounded-xl">
 								<Image
 									src="/icons/12340106921551942641.svg"
 									width={110}
