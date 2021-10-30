@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Hero from '../components/Hero';
+import Skills from '../components/Skills';
 
 export default function Home() {
 	return (
@@ -13,27 +14,15 @@ export default function Home() {
 
 			<div>
 				<main className="flex flex-col items-center justify-center w-full bg-black flex-1 px-20 text-center">
+					<Skills />
 					<section>
-						<p className="mt-3 text-5xl text-white">skills</p>
-						<div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-							<div className="p-6 mt-6 flex flex-col items-center justify-center bg-gray-300 border border-gray-300 shadow-md w-96 rounded-xl ">
-								<Image
-									src="/icons/PinClipart.com_eclipse-swt-plugin_3368555.png"
-									width={300}
-									height={150}
-								/>
+						<p className="mt-3 text-5xl text-white">{'<projects />'}</p>
+						<div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full text-white">
+							<div className="p-6 mt-6 flex flex-col items-center justify-center bg-gray-300 border border-gray-300 shadow-md w-96 h-48 rounded-xl ">
+								<h1> project 1</h1>
 							</div>
-							<div className=" flex gap-3 justify-center p-9 mt-6 text-left bg-gray-300 shadow-md w-96 rounded-xl">
-								<Image
-									src="/icons/12340106921551942641.svg"
-									width={110}
-									height={110}
-								/>
-								<Image
-									src="/icons/8905768601551941711 (1).svg"
-									width={125}
-									height={125}
-								/>
+							<div className=" flex gap-3 justify-center p-9 mt-6 text-left bg-gray-300 shadow-md w-96 h-48 rounded-xl">
+								<h1> project 2</h1>
 							</div>
 							<a
 								href="https://github.com/vercel/next.js/tree/master/examples"
