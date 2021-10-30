@@ -20,7 +20,7 @@ function Skills() {
 	return (
 		<div>
 			<p className="my-3 text-5xl text-white">{'<skills />'}</p>
-			<section className="flex justify-center h-screen w-full border border-red-500">
+			<section className="flex justify-center h-screen w-full">
 				<div className="flex flex-wrap items-center justify-center max-w-4xl mt-8 sm:w-full sm:gap-24 gap-6">
 					<Transition
 						as={Fragment}
