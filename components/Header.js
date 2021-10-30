@@ -19,19 +19,22 @@ function Header() {
 		<header
 			className={
 				navbar
-					? 'z-10 fixed bg-black top-0 flex w-full p-4 text-white font-light'
+					? 'z-10 fixed bg-purple-500 top-0 flex w-full p-4 text-white font-light'
 					: 'z-10 fixed top-0 flex w-full p-4 text-white font-light'
 			}
 		>
 			<div className="flex-grow">
 				<button>
-					<Image src="/icons/_a_c_.png" height={60} width={85} />
+					<Image src="/icons/_a_c_.png" height={40} width={85} />
 				</button>
 			</div>
 			<div className="flex text-xl gap-6">
-				<button className="font-light">SKILLS</button>
-				<button className="font-light">PROJECTS</button>
-				<button className="font-light">CONTACT</button>
+				<button className="sm:hidden">
+					<Image src="/icons/icons8-menu.svg" width={24} height={20} />
+				</button>
+				<button className="hidden sm:block font-light">SKILLS</button>
+				<button className="hidden sm:block font-light">PROJECTS</button>
+				<button className="hidden sm:block font-light">CONTACT</button>
 			</div>
 		</header>
 	);

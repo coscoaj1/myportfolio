@@ -4,17 +4,9 @@ import Image from 'next/image';
 function Projects() {
 	return (
 		<div className="bg-white">
-			<p className="mt-3 text-5xl text-black">{'<projects />'}</p>
+			<p className="mt-3 text-xl text-gray-500">{'<projects />'}</p>
 			<section className="flex flex-col justify-center items-center sm:h-auto w-screen sm-mx-auto">
-				<div className="p-6 mt-6 flex flex-row items-center justify-center gap-24 bg-white border-b border-gray-300 shadow-md w-full h-auto rounded-xl ">
-					<Image src="/images/91374.jpg" width={600} height={500} />
-					<h1 className="w-48"> links </h1>
-				</div>
-				<div className="p-6 mt-6 flex flex-row items-center justify-around gap-12 bg-white border-b border-gray-300 shadow-md w-full h-auto rounded-xl ">
-					<Image src="/images/91374.jpg" width={600} height={500} />
-					<h1> links </h1>
-				</div>
-				<div className="p-6 mt-6 flex flex-row items-center justify-around gap-12 bg-white border-b border-gray-300 shadow-md w-full h-auto rounded-xl ">
+				<div className="p-6 mt-6 flex flex-col sm:flex-row items-center justify-around gap-12 bg-white border-b border-gray-300 shadow-md w-full h-auto rounded-xl ">
 					<Image src="/images/91374.jpg" width={600} height={500} />
 					<div className="flex flex-col gap-5 w-96">
 						<div className="text-3xl font-bold"> Fullstack Airbnb Clone</div>
@@ -31,6 +23,14 @@ function Projects() {
 							</button>
 						</div>
 					</div>
+				</div>
+				<div className="p-6 mt-6 flex flex-row items-center justify-center gap-24 bg-white border-b border-gray-300 shadow-md w-full h-auto rounded-xl ">
+					<Image src="/images/91374.jpg" width={600} height={500} />
+					<h1 className="w-48"> links </h1>
+				</div>
+				<div className="p-6 mt-6 flex flex-row items-center justify-around gap-12 bg-white border-b border-gray-300 shadow-md w-full h-auto rounded-xl ">
+					<Image src="/images/91374.jpg" width={600} height={500} />
+					<h1> links </h1>
 				</div>
 			</section>
 		</div>
