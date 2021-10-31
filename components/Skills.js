@@ -28,7 +28,7 @@ function Skills() {
           </div>
         </div>
         <div>
-          <div className=" flex flex-col items-center justify-center bg-[#fafafa] w-96 h-80 rounded-xl">
+          <div className=" flex flex-col items-center justify-center bg-[#fafafa] w-96 h-96 rounded-xl">
             <div className="pt-8">
               <Image src="/icons/nodejs-1.svg" width={160} height={112} />
             </div>
