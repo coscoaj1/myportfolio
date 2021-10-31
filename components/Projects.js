@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import MobileDropdownMenu from './MobileDropdownMenu';
 
 function Projects() {
 	return (
@@ -9,7 +10,11 @@ function Projects() {
 			</p>
 			<section className="flex flex-col justify-center items-center sm:h-auto w-screen">
 				<div className="p-6 mt-6 flex flex-col sm:flex-row items-center justify-around gap-12 bg-[#fafafa] border-b border-gray-400 w-full h-auto">
-					<Image src="/images/91374.jpg" width={600} height={500} />
+					<a target="_blank" href="https://airbnbnextclone.vercel.app">
+						<button>
+							<Image src="/images/91374.jpg" width={600} height={500} />
+						</button>
+					</a>
 					<div className="flex flex-col gap-5 w-96 bg-[#fafafa] ">
 						<div className="text-3xl font-bold text-center">
 							{' '}
@@ -21,11 +26,17 @@ function Projects() {
 						</div>
 						<div className="flex justify-center gap-8">
 							{' '}
-							<button className="w-32 px-4 py-3  bg-[#818cf8] text-white rounded-3xl">
-								Preview
+							<button className="flex justify-center items-center w-32 px-5 py-2  bg-[#818cf8] text-white font-medium rounded-3xl">
+								<Image src="/icons/preview-65 (1).svg" width={36} height={36} />
+								<span>Preview</span>
 							</button>
-							<button className="w-32 px-4 py-3 border border-[#818cf8]  text-purple-500 rounded-3xl">
-								Visit Site
+							<button className="flex justify-center items-center gap-1 w-32 px-5 py-2 border border-[#818cf8]  text-purple-500 rounded-3xl">
+								<Image
+									src="/icons/iconmonstr-github-1 (1).svg"
+									width={36}
+									height={36}
+								/>
+								<span>Github</span>
 							</button>
 						</div>
 					</div>
