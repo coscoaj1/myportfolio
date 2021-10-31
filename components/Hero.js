@@ -22,7 +22,7 @@ function Hero() {
           </div>
         </section>
         <div className="absolute bottom-0 right-5">
-          <div className="font-medium sm:text-7xl text-3xl text-[#0891b2]">
+          <div className="font-medium sm:text-6xl md:text-7xl text-3xl text-[#0891b2]">
             {"</>"}
           </div>
         </div>
