@@ -1,35 +1,37 @@
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 function Header() {
-  const [navbar, setNavbar] = useState(false);
+	const [navbar, setNavbar] = useState(false);
 
-  useEffect(() => {
-    window.addEventListener("scroll", changeHeader);
-    return () => window.removeEventListener("scroll", changeHeader);
-  });
+	useEffect(() => {
+		window.addEventListener('scroll', changeHeader);
+		return () => window.removeEventListener('scroll', changeHeader);
+	});
 
-  const changeHeader = () => {
-    if (window.scrollY >= 80) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-  return (
-    <header className="top-0 flex w-full p-1 text-white font-light">
-      <div className="flex-grow">
-        <button className="font-medium text-xl">Anthony Cosco</button>
-      </div>
-      <div className="flex text-xl gap-6">
-        <button className="sm:hidden">
-          <Image src="/icons/icons8-menu.svg" width={24} height={20} />
-        </button>
-        <button className="hidden sm:block font-light">SKILLS</button>
-        <button className="hidden sm:block font-light">PROJECTS</button>
-        <button className="hidden sm:block font-light">CONTACT</button>
-      </div>
-    </header>
-  );
+	const changeHeader = () => {
+		if (window.scrollY >= 80) {
+			setNavbar(true);
+		} else {
+			setNavbar(false);
+		}
+	};
+	return (
+		<header className="absolute top-0 z-10 max-w-7xl flex w-full p-4 text-[#fafafa] font-light">
+			<div className="flex-grow">
+				<button className="font-medium sm:text-7xl text-3xl text-[#0891b2]">
+					{'<>'}
+				</button>
+			</div>
+			<div className="flex text-xl gap-6">
+				<button className="sm:hidden">
+					<Image src="/icons/icons8-menu.svg" width={24} height={20} />
+				</button>
+				<button className="hidden sm:block">PROJECTS</button>
+				<button className="hidden sm:block">ABOUT</button>
+				<button className="hidden sm:block mr-6">CONTACT</button>
+			</div>
+		</header>
+	);
 }
 
 export default Header;

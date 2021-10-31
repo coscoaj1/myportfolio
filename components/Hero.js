@@ -1,30 +1,33 @@
-import React from "react";
-import Image from "next/image";
-import Header from "./Header";
+import React from 'react';
+import Image from 'next/image';
+import Header from './Header';
 
 function Hero() {
-  return (
-    <div className="relative w-screen h-screen bg-[#111828]">
-      <div className="absolute top-10 left-10 rounded-full h-96 w-96 bg-[#8447ff]"></div>
-      <Header />
-      <section className="text-white w-full flex flex-col items-center justify-center absolute top-1/2">
-        <h4 className="text xl sm:text-2xl font-thin uppercase">
-          Hi, I'm Anthony
-        </h4>
-        <div className="text-4xl sm:text-5xl font-medium uppercase">
-          Frontend Developer
-        </div>
-      </section>
-    </div>
-  );
+	return (
+		<div className="relative max-w-7xl h-[65vh] bg-[#111828] ">
+			<Header />
+			<div id="wrapper">
+				<section className="text-white w-full flex flex-col absolute top-1/2">
+					<div className="flex flex-col gap-2 sm:gap-5 sm:pl-4 font-bold text-[#fafafa]">
+						<div className="font-light text-xl">Hi, I'm Anthony</div>
+						<div className=" flex flex-row text-4xl sm:text-7xl">
+							<div>Frontend </div>{' '}
+							<div className="text-[#818cf8]">Developer</div>
+						</div>
+						<div className="italic text-3xl my-2 font-medium">
+							This is my porfolio
+						</div>
+					</div>
+				</section>
+				<div className="absolute bottom-0 right-5">
+					<div className="font-medium sm:text-7xl text-3xl text-[#0891b2]">
+						{'</>'}
+					</div>
+				</div>
+				<div id="light" />
+			</div>
+		</div>
+	);
 }
 
 export default Hero;
-
-{
-  /* <Image
-				src="/images/mountains-2021-08-26-18-34-26-utc.jpg"
-				layout="fill"
-				objectFit="cover"
-			/> */
-}
