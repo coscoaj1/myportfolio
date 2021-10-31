@@ -17,7 +17,7 @@ function Hero() {
 							<div className="text-[#818cf8]">Developer</div>
 						</div>
 						<div className="italic text-3xl my-2 font-medium text-center sm:text-left">
-							This is my porfolio
+							This is my portfolio
 						</div>
 					</div>
 				</section>

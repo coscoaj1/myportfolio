@@ -21,10 +21,10 @@ function Projects() {
 						</div>
 						<div className="flex justify-center gap-8">
 							{' '}
-							<button className="w-32 px-4 py-3  bg-purple-500 text-white rounded-3xl">
+							<button className="w-32 px-4 py-3  bg-[#818cf8] text-white rounded-3xl">
 								Preview
 							</button>
-							<button className="w-32 px-4 py-3 border border-purple-500  text-purple-500 rounded-3xl">
+							<button className="w-32 px-4 py-3 border border-[#818cf8]  text-purple-500 rounded-3xl">
 								Visit Site
 							</button>
 						</div>
