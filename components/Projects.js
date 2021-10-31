@@ -4,7 +4,7 @@ import Image from 'next/image';
 function Projects() {
 	return (
 		<div className="max-w-screen bg-[#fafafa] ">
-			<p className="mt-3 pt-3 text-2xl text-center text-gray-600 bg-[#fafafa]">
+			<p className="mt-3 pt-3 text-2xl text-center text-gray-400 font-medium bg-[#fafafa]">
 				projects
 			</p>
 			<section className="flex flex-col justify-center items-center sm:h-auto w-screen">

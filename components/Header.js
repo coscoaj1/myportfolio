@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import { Menu } from '@headlessui/react';
+import MobileDropdownMenu from './MobileDropdownMenu';
+
 function Header() {
 	const [navbar, setNavbar] = useState(false);
 
@@ -22,10 +25,8 @@ function Header() {
 					{'<>'}
 				</button>
 			</div>
-			<div className="flex text-xl gap-6">
-				<button className="sm:hidden">
-					<Image src="/icons/icons8-menu.svg" width={24} height={20} />
-				</button>
+			<div className="flex text-xl gap-6 w-screen">
+				<MobileDropdownMenu />
 				<button className="hidden sm:block">PROJECTS</button>
 				<button className="hidden sm:block">ABOUT</button>
 				<button className="hidden sm:block mr-6">CONTACT</button>
