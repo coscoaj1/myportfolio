@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
-import MobileDropdownMenu from './MobileDropdownMenu';
+import Modal from './Modal';
 
 function Projects() {
+	const [showModal, setShowModal] = useState(false);
+
 	return (
 		<div className="max-w-screen bg-[#fafafa] ">
 			<p className="mt-3 pt-3 text-2xl text-center text-gray-400 font-medium bg-[#fafafa]">
@@ -18,18 +20,23 @@ function Projects() {
 					<div className="flex flex-col gap-5 w-96 bg-[#fafafa] ">
 						<div className="text-3xl font-bold text-center">
 							{' '}
-							Fullstack Airbnb Clone
+							Full Stack Airbnb Clone
 						</div>
 						<div className="text-gray-400 text-center font-medium">
-							Created with a Next.js/TailwindCSS frontend, and a Node.js/MongoDB
-							backened
+							Created with React/Next.js, Node.js, and MongoDB
 						</div>
 						<div className="flex justify-center gap-8">
 							{' '}
-							<button className="flex justify-center items-center w-32 px-5 bg-[#818cf8] transition duration-300 hover:bg-purple-500 active:scale-90 transform text-white font-medium rounded-3xl">
+							<button
+								onClick={() => setShowModal(true)}
+								className="flex justify-center items-center w-32 px-5 bg-[#818cf8] transition duration-300 hover:bg-purple-500 active:scale-90 transform text-white font-medium rounded-3xl"
+							>
 								<Image src="/icons/preview-65 (1).svg" width={36} height={36} />
 								<span>Preview</span>
 							</button>
+							{/* <Modal onClose={() => setShowModal(false)} show={showModal}>
+								Hello from the modal!
+							</Modal> */}
 							<a
 								href="https://github.com/coscoaj1/airbnbnextclone"
 								target="_blank"
