@@ -26,18 +26,23 @@ function Projects() {
 						</div>
 						<div className="flex justify-center gap-8">
 							{' '}
-							<button className="flex justify-center items-center w-32 px-5 py-2  bg-[#818cf8] text-white font-medium rounded-3xl">
+							<button className="flex justify-center items-center w-32 px-5 bg-[#818cf8] transition duration-300 hover:bg-purple-500 active:scale-90 transform text-white font-medium rounded-3xl">
 								<Image src="/icons/preview-65 (1).svg" width={36} height={36} />
 								<span>Preview</span>
 							</button>
-							<button className="flex justify-center items-center gap-1 w-32 px-5 py-2 border border-[#818cf8]  text-purple-500 rounded-3xl">
-								<Image
-									src="/icons/iconmonstr-github-1 (1).svg"
-									width={36}
-									height={36}
-								/>
-								<span>Github</span>
-							</button>
+							<a
+								href="https://github.com/coscoaj1/airbnbnextclone"
+								target="_blank"
+							>
+								<button className="flex justify-center items-center gap-1 w-32 px-5 py-1.5 border border-[#818cf8]  text-[#818cf8]  transition duration-300 active:scale-90 transform hover:scale-105 rounded-3xl">
+									<Image
+										src="/icons/iconmonstr-github-1 (1).svg"
+										width={36}
+										height={36}
+									/>
+									GitHub
+								</button>
+							</a>
 						</div>
 					</div>
 				</div>
