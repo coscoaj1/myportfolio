@@ -1,13 +1,10 @@
-import { Video } from 'cloudinary-react';
 import React, { useEffect, useRef, useState } from 'react';
 import ReactDOM from 'react-dom';
 import { IoCloseOutline } from 'react-icons/io5';
-import ReactPlayer from 'react-player';
 import VideoPlayer from './VideoPlayer';
 
 function Modal({ show, onClose, children, title }) {
 	const [isBrowser, setIsBrowser] = useState(false);
-	const [isPlaying, setIsPlaying] = useState(true);
 
 	useEffect(() => {
 		setIsBrowser(true);
