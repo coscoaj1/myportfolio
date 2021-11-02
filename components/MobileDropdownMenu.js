@@ -39,13 +39,13 @@ function MobileDropdownMenu() {
               </Link>
             )}
           </Menu.Item>
-          <Menu.Item>
+          {/* <Menu.Item>
             {({ active }) => (
               <Link href="/#contact" passHref>
                 Contact
               </Link>
             )}
-          </Menu.Item>
+          </Menu.Item> */}
         </Menu.Items>
       </Transition>
     </Menu>

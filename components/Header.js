@@ -32,9 +32,9 @@ function Header() {
         <Link href="/#about" passHref>
           <button className="hidden sm:block">ABOUT</button>
         </Link>
-        <Link href="/#contact" passHref>
+        {/* <Link href="/#contact" passHref>
           <button className="hidden sm:block mr-6">CONTACT</button>
-        </Link>
+        </Link> */}
       </div>
     </header>
   );

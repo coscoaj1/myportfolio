@@ -9,9 +9,9 @@ function Project({ onClick, projectTitle, projectDescription }) {
           <Image src="/images/91374.jpg" width={600} height={500} />
         </button>
       </a>
-      <div className="flex flex-col gap-5 w-96 bg-[#fafafa] ">
+      <div className="flex flex-col gap-5 w-96 bg-[#fafafa] items-center justify-center ">
         <div className="text-3xl font-bold text-center">{projectTitle}</div>
-        <div className="text-gray-400 text-center font-medium">
+        <div className="text-gray-400 text-center font-medium w-72">
           {projectDescription}
         </div>
         <div className="flex justify-center gap-8">

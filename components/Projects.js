@@ -12,13 +12,12 @@ function Projects({ handleClick }) {
 
   return (
     <div className="max-w-screen bg-[#fafafa]">
-      <p
+      <div
         id="projects"
-        passHref
         className="mt-3 pt-3 text-2xl text-center text-gray-400 font-medium bg-[#fafafa]"
       >
         projects
-      </p>
+      </div>
       <section className="flex flex-col justify-center items-center sm:h-auto w-screen">
         <Project
           onClick={handleClick}
