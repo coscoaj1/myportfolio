@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Project({ onClick, projectTitle, projectDescription }) {
   return (
-    <div className="p-6 mt-6 flex flex-col sm:flex-row items-center justify-around gap-12 bg-[#fafafa] border-b border-gray-400 w-full h-auto">
+    <div className="p-6 sm: mt-6 flex flex-col sm:flex-row items-center justify-around gap-12 bg-[#fafafa] border-b border-gray-400 w-full h-auto">
       <a target="_blank" href="https://airbnbnextclone.vercel.app">
         <button>
           <Image src="/images/91374.jpg" width={600} height={500} />

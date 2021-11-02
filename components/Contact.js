@@ -20,11 +20,11 @@ function Contact() {
     <div
       id="contact"
       passHref
-      className="min-h-screen bg-[#111828] py-6 flex flex-col justify-center sm:py-12"
+      className="min-h-screen bg-[#111828] py-6 sm:py-12 flex flex-col justify-center "
     >
-      <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#818cf8] to-[#c25be2] shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-        <div className="relative px-4 py-6 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+      <div className="relative py-3 sm:max-w-xl mx-auto max-w-sm">
+        <div className="absolute inset-0 bg-gradient-to-r from-[#818cf8] to-[#c25be2] shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 rounded-3xl"></div>
+        <div className="relative px-4 py-6 bg-white shadow-lg rounded-3xl sm:p-20">
           <div className="max-w-md mx-auto">
             <div>
               <h1 className="text-4xl font-bold">Contact Form</h1>
