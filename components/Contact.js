@@ -19,7 +19,6 @@ function Contact() {
   return (
     <div
       id="contact"
-      passHref
       className="min-h-screen bg-[#111828] py-6 sm:py-12 flex flex-col justify-center "
     >
       <div className="relative py-3 sm:max-w-xl mx-auto max-w-sm">
