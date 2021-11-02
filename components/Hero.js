@@ -4,7 +4,7 @@ import Header from "./Header";
 
 function Hero() {
   return (
-    <div className="relative max-w-7xl h-[75vh] bg-[#111828] ">
+    <div className="relative max-w-7xl h-[95vh] bg-[#111828] ">
       <Header />
       <div id="wrapper">
         <section className="text-white w-full flex flex-col absolute top-1/2">
@@ -22,7 +22,7 @@ function Hero() {
           </div>
         </section>
         <div className="absolute bottom-0 right-5">
-          <div className="font-medium sm:text-5xl md:text-6xl text-3xl text-[#0891b2]">
+          <div className="font-medium sm:text-4xl md:text-5xl text-2xl text-[#0891b2]">
             {"</>"}
           </div>
         </div>

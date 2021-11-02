@@ -1,17 +1,30 @@
 import React, { useState } from "react";
-import Image from "next/image";
-import FirstProject from "./FirstProject";
+import Project from "./Project";
 
-function Projects({ show, onClose, children, title, handleClick }) {
-  const [showModal, setShowModal] = useState(false);
+function Projects({ handleClick }) {
+  const project = {
+    first: {
+      title: "Full Stack Airbnb Clone",
+      description: "Created with Next.js/React, and Node.js/MongoDB",
+    },
+    second: {},
+  };
 
   return (
     <div className="max-w-screen bg-[#fafafa]">
-      <p className="mt-3 pt-3 text-2xl text-center text-gray-400 font-medium bg-[#fafafa]">
+      <p
+        id="projects"
+        passHref
+        className="mt-3 pt-3 text-2xl text-center text-gray-400 font-medium bg-[#fafafa]"
+      >
         projects
       </p>
       <section className="flex flex-col justify-center items-center sm:h-auto w-screen">
-        <FirstProject onClick={handleClick} />
+        <Project
+          onClick={handleClick}
+          projectTitle={project.first.title}
+          projectDescription={project.first.description}
+        />
       </section>
     </div>
   );

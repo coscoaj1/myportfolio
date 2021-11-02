@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import MobileDropdownMenu from "./MobileDropdownMenu";
+import Link from "next/link";
 
 function Header() {
   const [navbar, setNavbar] = useState(false);
@@ -25,9 +26,15 @@ function Header() {
       </div>
       <div className="flex justify-end text-xl gap-6 w-screen">
         <MobileDropdownMenu />
-        <button className="hidden sm:block">PROJECTS</button>
-        <button className="hidden sm:block">ABOUT</button>
-        <button className="hidden sm:block mr-6">CONTACT</button>
+        <Link href="/#projects" passHref>
+          <button className="hidden sm:block">PROJECTS</button>
+        </Link>
+        <Link href="/#about" passHref>
+          <button className="hidden sm:block">ABOUT</button>
+        </Link>
+        <Link href="/#contact" passHref>
+          <button className="hidden sm:block mr-6">CONTACT</button>
+        </Link>
       </div>
     </header>
   );
