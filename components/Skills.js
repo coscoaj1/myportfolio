@@ -6,7 +6,7 @@ function Skills() {
 		<div className="w-full h-auto bg-[#111828] py-6 mt-6">
 			<p className="w-full text-2xl text-center text-gray-200">{'skills'}</p>
 			<div className="flex flex-col flex-wrap md:flex-row justify-center items-center max-w-screen mt-8 mb-24 sm:w-full h-auto w-full gap-8">
-				<div className="flex justify-around p-9 text-left bg-[#fafafa] shadow-md w-96 h-60 flex-[basis:33%] py-2 rounded-xl transition hover:shadow-lg duration-250 hover:cursor-pointer">
+				<div className="flex justify-around p-9 text-left bg-[#fafafa] shadow-md w-96 h-60 py-2 rounded-xl transition hover:shadow-lg duration-250 hover:cursor-pointer">
 					<Image
 						src="/icons/12340106921551942641.svg"
 						width={110}
