@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Modal from './Modal';
 
 function Projects({ show, onClose, children, title, handleClick }) {
 	const [showModal, setShowModal] = useState(false);
 
 	return (
-		<div className="max-w-screen bg-[#fafafa] ">
+		<div className="max-w-screen bg-[#fafafa]">
 			<p className="mt-3 pt-3 text-2xl text-center text-gray-400 font-medium bg-[#fafafa]">
 				projects
 			</p>
