@@ -7,7 +7,7 @@ function Header() {
 		<header className="relative top-0 z-10 max-w-full md:mx-14 flex w-full p-4 text-[#fafafa] font-light">
 			<div className="flex-grow">
 				<button className="font-medium sm:text-5xl md:text-6xl text-3xl text-[#0891b2]">
-					{'<>'}
+					{'</>'}
 				</button>
 			</div>
 			<div className="flex justify-end text-xl gap-6 w-screen pr-12">

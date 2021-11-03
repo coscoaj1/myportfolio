@@ -38,11 +38,11 @@ function Hero() {
 							</div>
 						</div>
 					</section>
-					<div className="absolute bottom-0 right-5">
+					{/* <div className="absolute bottom-0 right-5">
 						<div className="font-medium sm:text-4xl md:text-5xl text-2xl text-[#0891b2]">
 							{'</>'}
 						</div>
-					</div>
+					</div> */}
 					<div id="light" />
 				</div>
 			</div>
