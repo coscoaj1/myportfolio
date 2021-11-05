@@ -7,7 +7,7 @@ function Hero() {
 	return (
 		<div id="light" className="relative max-w-full h-[95vh] bg-[#111828] ">
 			<Header />
-			<div className="absolute flex items-center justify-center flex-row h-[80vh] bg-opacity-100 ">
+			<div className="absolute flex items-center justify-center flex-row h-[80vh]">
 				<div className="hidden sm:flex flex-col justify-center items-center gap-2 h-full w-24">
 					<div className="flex flex-col w-12 ml-3 gap-4">
 						<a href="https://github.com/coscoaj1" target="_blank">
