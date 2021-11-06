@@ -19,14 +19,14 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="min-h-screen bg-[#111828] py-6 sm:py-12 flex flex-col justify-center "
+      className="min-h-screen bg-[#202124] py-6 sm:py-12 flex flex-col justify-center "
     >
       <div className="relative py-3 sm:max-w-xl mx-auto max-w-sm">
         <div className="absolute inset-0 bg-gradient-to-r from-[#818cf8] to-[#c25be2] shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 rounded-3xl"></div>
-        <div className="relative px-4 py-6 bg-white shadow-lg rounded-3xl sm:p-20">
+        <div className="relative px-4 py-6  bg-[#121212] shadow-lg rounded-3xl sm:p-20">
           <div className="max-w-md mx-auto">
             <div>
-              <h1 className="text-4xl font-bold">Contact Form</h1>
+              <h1 className="text-4xl font-bold text-gray-300">Contact Form</h1>
             </div>
             <div className="divide-y divide-gray-200 w-full h-auto">
               <Formik
@@ -58,24 +58,24 @@ function Contact() {
               >
                 {({ status }) => (
                   <Form className="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
-                    <div className="relative">
+                    <div className="relative bg-[#1e1e1e]">
                       <Field
                         autoComplete="off"
                         id="name"
                         name="name"
                         type="name"
-                        className="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
+                        className="peer placeholder-transparent h-10 w-full text-gray-300 focus:outline-none bg-[#1e1e1e]"
                         placeholder="Name"
                       />
                       <ErrorMessage
                         name="name"
                         render={(msg) => (
-                          <div className="text-red-500">{msg}</div>
+                          <div className="text-red-500 bg-[#121212]">{msg}</div>
                         )}
                       />
                       <label
                         htmlFor="name"
-                        className="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm"
+                        className="absolute left-0 -top-3.5 text-gray-300 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-300 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-400 peer-focus:text-sm"
                       >
                         Full Name
                       </label>
@@ -86,19 +86,19 @@ function Contact() {
                         id="email"
                         name="email"
                         type="email"
-                        className="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
+                        className="bg-[#1e1e1e] peer placeholder-transparent h-10 w-full border-b- border-gray-700 text-gray-900 focus:outline-none"
                         placeholder="Email address"
                       />
                       <ErrorMessage
                         name="email"
                         render={(msg) => (
-                          <div className="text-red-500">{msg}</div>
+                          <div className="text-red-500 bg-[#121212]">{msg}</div>
                         )}
                       />
 
                       <label
                         htmlFor="email"
-                        className="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm"
+                        className="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-300 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-400 peer-focus:text-sm"
                       >
                         Email Address
                       </label>
@@ -113,17 +113,17 @@ function Contact() {
                         name="message"
                         type="message"
                         placeholder="Message"
-                        className="peer placeholder-transparent h-30 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
+                        className="bg-[#1e1e1e] peer placeholder-transparent h-30 w-full text-gray-300 focus:outline-none focus:borer-rose-600"
                       />
                       <ErrorMessage
                         name="message"
                         render={(msg) => (
-                          <div className="text-red-500">{msg}</div>
+                          <div className="text-red-500 bg-[#121212]">{msg}</div>
                         )}
                       />
                       <label
                         htmlFor="message"
-                        className="absolute pb-2 left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm"
+                        className="absolute pb-2 left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-300 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-400 peer-focus:text-sm"
                       >
                         Message:
                       </label>

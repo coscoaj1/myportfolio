@@ -23,7 +23,7 @@ function Modal({ show, onClose, children, title }) {
           arial-label="Close modal"
           onClick={handleCloseClick}
         />
-        <div className="flex items-center justify-center sm:w-[800px] sm:h-[500px] w-96 h-72 rounded-3xl bg-white mx-0">
+        <div className="flex items-center justify-center sm:w-[800px] sm:h-[450px] w-96 h-72  bg-[#141414] mx-0">
           <VideoPlayer videoId="2021-11-01_16-33-54_sk2kaa" />
         </div>
       </div>
