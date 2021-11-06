@@ -2,27 +2,30 @@ import React, { useState } from "react";
 import Project from "./Project";
 
 function Projects({ handleClick }) {
-  const project = {
-    first: {
-      title: "Full Stack Airbnb Clone",
-      description: "Created with Next.js/React, and Node.js/MongoDB",
+  const project = [
+    {
+      title: "Full-Stack Airbnb Clone",
+      description:
+        "Users can sign in, search for rentals with a custom date picker, and create their own listings.",
+      tech: "Next.js Node/Express MongoDB AWS S3 Google Maps API, TailwindCSS",
     },
-    second: {},
-  };
+    {},
+  ];
 
   return (
-    <div className="max-w-screen bg-[#fafafa]">
+    <div className="max-w-screen bg-[#e5e7eb]">
       <div
         id="projects"
-        className="mt-3 pt-3 text-2xl text-center text-gray-400 font-medium bg-[#fafafa]"
+        className="mt-3 pt-3 text-5xl text-center font-medium bg-[#e5e7eb]"
       >
-        projects
+        Projects
       </div>
-      <section className="flex flex-col justify-center items-center sm:h-auto w-screen">
+      <section className="bg-[#e5e7eb] flex flex-col justify-center items-center sm:h-auto w-screen">
         <Project
           onClick={handleClick}
-          projectTitle={project.first.title}
-          projectDescription={project.first.description}
+          projectTitle={project[0].title}
+          projectDescription={project[0].description}
+          projectTech={project[0].tech}
         />
       </section>
     </div>
