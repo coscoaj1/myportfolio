@@ -5,8 +5,6 @@ import { GiSkills } from "react-icons/gi";
 function Skills() {
   return (
     <div className="relative w-full h-autopy-6">
-      {/* <div className="absolute inset-0 bg-black opacity-40 h-auto"></div> */}
-
       <div>
         <div className="flex flex-col w-full items-center justify-center gap-2">
           <p className="w-full text-4xl text-center font-medium text-[#828cf8]">
