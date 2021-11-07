@@ -30,7 +30,7 @@ export default function Home() {
       <div>
         <Projects passHref handleClick={handleClick} />
         <About passHref />
-        <Contact passHref />
+        {/* <Contact passHref /> */}
       </div>
     </div>
   );
