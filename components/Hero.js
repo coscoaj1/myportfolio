@@ -5,7 +5,8 @@ import { AiFillLinkedin } from "react-icons/ai";
 
 function Hero() {
   return (
-    <div className="relative max-w-full h-[95vh] bg-[#202124] ">
+    <div className="relative max-w-full h-[120vh] bg-skillsbg">
+      <div className="absolute inset-0 bg-[#212124] opacity-70 h-[120vh]"></div>
       <Header />
       <div className="absolute flex items-center justify-center flex-row h-[80vh] text-gray-300">
         <div className="hidden sm:flex flex-col justify-center items-center gap-2 h-full w-24">
@@ -26,7 +27,8 @@ function Hero() {
             <div className="flex items-center justify-center gap-4">
               <div className="flex flex-col items-center sm:items-start justify-center sm:justify-start gap-2 sm:gap-5 sm:pl-4 font-bold text-gray-300">
                 <div className="italic text-xl md:text-2xl text-center sm:text-left">
-                  Hi, I'm <span className="text-[#03d8c5]">Anthony.</span>
+                  Hi, I'm{" "}
+                  <span className="text-[#03d8c5] text-3xl">Anthony.</span>
                 </div>
                 <div className=" flex flex-row text-4xl sm:text-6xl lg:text-7xl xl:text-8xl justify-center sm:justify-start">
                   <div>Frontend </div>{" "}

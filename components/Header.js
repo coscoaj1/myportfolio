@@ -4,13 +4,13 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <header className="relative top-0 z-10 max-w-full flex w-full p-4 text-[#fafafa] font-light bg-[#121212]">
+    <header className="relative top-0 z-10 max-w-full flex w-full p-3 text-[#fafafa] font-light">
       <div className="flex-grow">
-        <button className="font-medium sm:text-5xl md:text-6xl text-3xl text-[#03d8c5]">
+        <button className="font-medium sm:text-3xl md:text-4xl text-xl text-[#03d8c5]">
           {"</>"}
         </button>
       </div>
-      <div className="flex justify-end text-xl gap-6 w-screen pr-12">
+      <div className="flex justify-end text-lg gap-6 w-screen pr-12">
         <MobileDropdownMenu />
         <Link href="/#projects" passHref>
           <button className="hidden sm:block">PROJECTS</button>

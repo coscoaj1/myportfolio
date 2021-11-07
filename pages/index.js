@@ -15,17 +15,17 @@ export default function Home() {
   };
 
   return (
-    <div className="w-screen bg-[#202124]">
+    <div className="w-screen">
       <Modal onClose={() => setShowModal(false)} show={showModal}>
         Hello from the modal!
       </Modal>
-      <div className=" max-w-screen bg-[#202124]">
+      <div className=" max-w-screen">
         <Head>
           <title>Anthony Cosco Portfolio</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Hero />
-        <Skills />
+        {/* <Skills /> */}
       </div>
       <div>
         <Projects passHref handleClick={handleClick} />

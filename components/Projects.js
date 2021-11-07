@@ -14,7 +14,7 @@ function Projects({ handleClick }) {
   ];
 
   return (
-    <div className="max-w-screen bg-[#202124]">
+    <div className="max-w-screen bg-[#171719]">
       <div className="w-full flex flex-col items-center justify-center gap-2">
         <div
           id="projects"
