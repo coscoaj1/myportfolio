@@ -7,7 +7,7 @@ import { FaAirbnb } from "react-icons/fa";
 
 function Project({ onClick, projectTitle, projectDescription, projectTech }) {
   return (
-    <div className="p-6 sm:mt-6 flex flex-col sm:flex-row items-center justify-around gap-12 bg-[#171719]  w-full h-auto">
+    <div className="p-4 sm:mt-4 flex flex-col sm:flex-row items-center justify-around gap-12 bg-[#171719]  w-full h-auto">
       <a
         className="rounded-lg "
         target="_blank"

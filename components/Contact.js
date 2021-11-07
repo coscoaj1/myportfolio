@@ -19,9 +19,9 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="bg-[#202124] flex flex-col justify-center my-8"
+      className="bg-[#202124] flex flex-col justify-center my-8 rounded-3xl"
     >
-      <div className="relative py-3 sm:max-w-xl mx-auto max-w-sm bg-[#171719]">
+      <div className="relative rounded-3xl sm:max-w-xl mx-auto max-w-sm bg-[#171719]">
         <div className="absolute inset-0 bg-gradient-to-r from-[#818cf8] to-[#c25be2] shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 rounded-3xl"></div>
         <div className="relative px-4 py-6  bg-[#121212] shadow-lg rounded-3xl sm:p-20">
           <div className="max-w-md mx-auto">
