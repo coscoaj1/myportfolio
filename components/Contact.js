@@ -21,9 +21,9 @@ function Contact() {
       id="contact"
       className="bg-[#202124] flex flex-col justify-center my-8 rounded-3xl"
     >
-      <div className="relative rounded-3xl sm:max-w-xl mx-auto max-w-sm bg-[#171719]">
+      <div className="relative rounded-3xl sm:max-w-xl mx-auto max-w-sm bg-[#191919]">
         <div className="absolute inset-0 bg-gradient-to-r from-[#818cf8] to-[#c25be2] shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 rounded-3xl"></div>
-        <div className="relative px-4 py-6  bg-[#121212] shadow-lg rounded-3xl sm:p-20">
+        <div className="relative px-4 py-6  bg-[#1e1e1e] shadow-lg rounded-3xl sm:p-20">
           <div className="max-w-md mx-auto">
             <div>
               <h1 className="text-4xl font-bold text-gray-300">Contact Form</h1>
@@ -58,19 +58,21 @@ function Contact() {
               >
                 {({ status }) => (
                   <Form className="py-8 space-y-4 text-base leading-6 text-gray-700 sm:text-lg sm:leading-7">
-                    <div className="relative bg-[#1e1e1e]">
+                    <div className="relative bg-[#1232323]">
                       <Field
                         autoComplete="off"
                         id="name"
                         name="name"
                         type="name"
-                        className="peer placeholder-transparent h-10 w-full text-gray-300 focus:outline-none bg-[#1e1e1e]"
+                        className="peer placeholder-transparent h-10 w-full text-gray-300 focus:outline-none bg-[#282828]"
                         placeholder="Name"
                       />
                       <ErrorMessage
                         name="name"
                         render={(msg) => (
-                          <div className="text-red-500 bg-[#121212]">{msg}</div>
+                          <div className="text-red-500 bg-[#1232323]">
+                            {msg}
+                          </div>
                         )}
                       />
                       <label
@@ -86,13 +88,15 @@ function Contact() {
                         id="email"
                         name="email"
                         type="email"
-                        className="bg-[#1e1e1e] peer placeholder-transparent h-10 w-full border-b- border-gray-700 text-gray-900 focus:outline-none"
+                        className="bg-[#282828] peer placeholder-transparent h-10 w-full border-b- border-gray-700 text-gray-900 focus:outline-none"
                         placeholder="Email address"
                       />
                       <ErrorMessage
                         name="email"
                         render={(msg) => (
-                          <div className="text-red-500 bg-[#121212]">{msg}</div>
+                          <div className="text-red-500 bg-[#1232323]">
+                            {msg}
+                          </div>
                         )}
                       />
 
@@ -113,12 +117,14 @@ function Contact() {
                         name="message"
                         type="message"
                         placeholder="Message"
-                        className="bg-[#1e1e1e] peer placeholder-transparent h-30 w-full text-gray-300 focus:outline-none focus:borer-rose-600"
+                        className="bg-[#282828] peer placeholder-transparent h-30 w-full text-gray-300 focus:outline-none focus:borer-rose-600"
                       />
                       <ErrorMessage
                         name="message"
                         render={(msg) => (
-                          <div className="text-red-500 bg-[#121212]">{msg}</div>
+                          <div className="text-red-500 bg-[#1232323]">
+                            {msg}
+                          </div>
                         )}
                       />
                       <label

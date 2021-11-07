@@ -7,9 +7,9 @@ function About() {
   return (
     <div
       id="about"
-      className="relative flex flex-col items-center justify-center w-screen gap-24 bg-aboutbg"
+      className="relative flex flex-col items-center justify-center gap-24 bg-aboutbg"
     >
-      <div className="absolute inset-0 bg-black opacity-90 h-[auto]"></div>
+      <div className="absolute inset-0 bg-black opacity-90 w-full h-[auto]"></div>
 
       <div className="flex flex-col items-center justify-center w-full">
         <div className="flex flex-col items-center justify-center w-full gap-4">
@@ -21,9 +21,8 @@ function About() {
         <div className="z-10 flex flex-col">
           <div className="my-8 text-xl text-gray-300 w-96">
             I am a self-taught <span className="text-[#818cf8]">developer</span>{" "}
-            with a primary focus in{" "}
-            <span className="text-[#818cf8]">frontend</span> engineering, and an
-            interest in backend as well. I love{" "}
+            with a passion for <span className="text-[#818cf8]">frontend</span>{" "}
+            engineering, and an interest in backend as well. I love{" "}
             <span className="text-[#818cf8]">solving complex problems</span>,
             and look forward to growing in my developer career.
           </div>

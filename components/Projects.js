@@ -15,18 +15,18 @@ function Projects({ handleClick }) {
 
   return (
     <div className="max-w-screen bg-[#171719]">
-      <div className="w-full flex flex-col items-center justify-center gap-4">
+      <div className="flex flex-col items-center justify-center w-full gap-4">
         <div
           id="projects"
-          className="mt-3 pt-3 text-5xl text-center text-[#828cf8] font-medium"
+          className="mt-3 pt-3 text-5xl text-center text-[#828cf8] font-bold"
         >
           Projects
         </div>
         <div className="text-center">
-          <VscProject className="h-20 w-20 text-center text-gray-300" />
+          <VscProject className="w-20 h-20 text-center text-gray-300" />
         </div>
       </div>
-      <section className="flex flex-col justify-center items-center sm:h-auto w-screen">
+      <section className="flex flex-col items-center justify-center w-screen sm:h-auto">
         <Project
           onClick={handleClick}
           projectTitle={project[0].title}
