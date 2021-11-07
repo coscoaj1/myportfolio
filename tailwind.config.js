@@ -12,8 +12,9 @@ module.exports = {
         text: "#1abc9c",
       },
       backgroundImage: {
-        shapes: "url('/images/shapelined-_JBKdviweXI-unsplash.jpg')",
-        skillsbg: "url('/images/shubham-dhage-MIvbZPmY9Ds-unsplash.jpg')",
+        aboutbg: "url('/images/shapelined-_JBKdviweXI-unsplash.jpg')",
+        herobg: "url('/images/shubham-dhage-MIvbZPmY9Ds-unsplash.jpg')",
+        skillsbg: "url('/images/esther-jiao-B3FyeM21GdA-unsplash.jpg')",
       },
     },
   },

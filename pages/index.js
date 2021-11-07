@@ -24,8 +24,8 @@ export default function Home() {
           <title>Anthony Cosco Portfolio</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Hero />
-        {/* <Skills /> */}
+        <Hero passHref />
+        {/* <Skills passHref /> */}
       </div>
       <div>
         <Projects passHref handleClick={handleClick} />

@@ -28,7 +28,7 @@ function Contact() {
             <div>
               <h1 className="text-4xl font-bold text-gray-300">Contact Form</h1>
             </div>
-            <div className="divide-y divide-gray-200 w-full h-auto">
+            <div className="w-full h-auto divide-y divide-gray-200">
               <Formik
                 initialValues={{
                   name: "",
@@ -57,7 +57,7 @@ function Contact() {
                 }}
               >
                 {({ status }) => (
-                  <Form className="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
+                  <Form className="py-8 space-y-4 text-base leading-6 text-gray-700 sm:text-lg sm:leading-7">
                     <div className="relative bg-[#1e1e1e]">
                       <Field
                         autoComplete="off"
@@ -129,7 +129,7 @@ function Contact() {
                       </label>
                     </div>
                     {status && status.message && (
-                      <div className="flex gap-1 items-center justify-center">
+                      <div className="flex items-center justify-center gap-1">
                         <FcCheckmark />
                         <div className="message">{status.message}</div>
                       </div>
