@@ -26,15 +26,15 @@ function Hero() {
             <div className="flex items-center justify-center gap-4">
               <div className="flex flex-col items-center sm:items-start justify-center sm:justify-start gap-2 sm:gap-5 sm:pl-4 font-bold text-gray-300">
                 <div className="italic text-xl md:text-2xl text-center sm:text-left">
-                  Hi, I'm <span className="text-[#0891b2]">Anthony.</span>
+                  Hi, I'm <span className="text-[#03d8c5]">Anthony.</span>
                 </div>
                 <div className=" flex flex-row text-4xl sm:text-6xl lg:text-7xl xl:text-8xl justify-center sm:justify-start">
                   <div>Frontend </div>{" "}
                   <div className="text-[#818cf8]">Developer</div>
                 </div>
                 <div className="text-3xl md:text-4xl my-2 font-medium text-center text-gray-300 sm:text-left">
-                  and Javascript{" "}
-                  <span className="text-[#0891b2]">enthusiast.</span>
+                  and <span className="text-[#03d8c5]">Javascript </span>
+                  enthusiast.
                 </div>
               </div>
             </div>

@@ -16,7 +16,7 @@ function Project({ onClick, projectTitle, projectDescription, projectTech }) {
           <Image src="/images/91374dark.jpg" width={600} height={500} />
         </button>
       </a>
-      <div className="flex flex-col gap-5 w-96 bg-[#121212] shadow-md p-4 items-center justify-center rounded-lg">
+      <div className="flex flex-col gap-5 w-96 bg-[#121212] shadow-md p-6 items-center justify-center rounded-lg">
         <div className="text-4xl px-2 py-4 font-bold text-[#818cf8] text-center bg-[#1e1e1e] rounded-md">
           {projectTitle}
         </div>

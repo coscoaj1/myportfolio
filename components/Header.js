@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="relative top-0 z-10 max-w-full flex w-full p-4 text-[#fafafa] font-light bg-[#121212]">
       <div className="flex-grow">
-        <button className="font-medium sm:text-5xl md:text-6xl text-3xl text-[#0891b2]">
+        <button className="font-medium sm:text-5xl md:text-6xl text-3xl text-[#03d8c5]">
           {"</>"}
         </button>
       </div>
