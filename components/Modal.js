@@ -1,6 +1,7 @@
 import ReactDOM from "react-dom";
 import { IoCloseOutline } from "react-icons/io5";
 import VideoPlayer from "./VideoPlayer";
+import React, { useState, useEffect } from "react";
 
 function Modal({ show, onClose, children, title }) {
   const [isBrowser, setIsBrowser] = useState(false);
@@ -15,10 +16,10 @@ function Modal({ show, onClose, children, title }) {
   };
 
   const modalContent = show ? (
-    <div className="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-20 text-opacity-100 backdrop-filter backdrop-blur-xl z-50">
+    <div className="fixed top-0 left-0 z-50 w-full h-full text-opacity-100 bg-gray-800 bg-opacity-20 backdrop-filter backdrop-blur-xl">
       <div className="flex flex-col items-center justify-center h-screen my-auto">
         <IoCloseOutline
-          className="bg-white cursor-pointer rounded-full h-8 w-8 mb-8"
+          className="w-8 h-8 mb-8 bg-white rounded-full cursor-pointer"
           arial-label="Close modal"
           onClick={handleCloseClick}
         />

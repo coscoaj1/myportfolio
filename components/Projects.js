@@ -21,7 +21,7 @@ function Projects({ handleClick }) {
       description:
         "A simple landing page with a parallax scrolling background image",
       tech: "React, React-Router-Dom, TailwindCSS, Netlify",
-      link: "remote-destinations.netlify.app",
+      link: "https://remote-destinations.netlify.app/",
       github: "https://github.com/coscoaj1/landing_page",
       image: "/images/remote.jpg",
       icon: <FaMapSigns className="w-10 h-10 text-left text-gray-300" />,
