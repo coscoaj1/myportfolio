@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Project from "./Project";
 import { VscProject } from "react-icons/vsc";
+import { FaAirbnb, FaMapSigns } from "react-icons/fa";
 
 function Projects({ handleClick }) {
   const project = [
@@ -9,8 +10,34 @@ function Projects({ handleClick }) {
       description:
         "Users can sign in, search for rentals with a custom date picker, and create their own listings.",
       tech: "Next.js Node Express MongoDB AWS S3 Google Maps API TailwindCSS",
+      link: "https://airbnbnextclone.vercel.app",
+      github: "https://github.com/coscoaj1/airbnbnextclone",
+      image: "/images/91374dark.jpg",
+      icon: <FaAirbnb className="w-10 h-10 text-left text-gray-300" />,
+      video: true,
     },
-    {},
+    {
+      title: "Remote Destinations",
+      description:
+        "A simple landing page with a parallax scrolling background image",
+      tech: "React, React-Router-Dom, TailwindCSS, Netlify",
+      link: "remote-destinations.netlify.app",
+      github: "https://github.com/coscoaj1/landing_page",
+      image: "/images/remote.jpg",
+      icon: <FaMapSigns className="w-10 h-10 text-left text-gray-300" />,
+      video: false,
+    },
+    {
+      title: "Catlify",
+      description:
+        "Users can sign in, submit their favorite blogs for review, and like/comment on existing blog submissions.",
+      tech: "React, MUI 5, Node.js, Express, MongoDB",
+      link: "https://airbnbnextclone.vercel.app",
+      github: "https://github.com/coscoaj1/bloglist-frontend",
+      image: "/images/91374dark.jpg",
+      icon: <FaMapSigns />,
+      video: false,
+    },
   ];
 
   return (
@@ -27,12 +54,21 @@ function Projects({ handleClick }) {
         </div>
       </div>
       <section className="flex flex-col items-center justify-center w-screen sm:h-auto">
-        <Project
-          onClick={handleClick}
-          projectTitle={project[0].title}
-          projectDescription={project[0].description}
-          projectTech={project[0].tech}
-        />
+        {project.map((item) => {
+          return (
+            <Project
+              onClick={handleClick}
+              projectTitle={item.title}
+              projectDescription={item.description}
+              projectTech={item.tech}
+              projectLink={item.link}
+              projectGithub={item.github}
+              projectImage={item.image}
+              icon={item.icon}
+              video={item.video}
+            />
+          );
+        })}
       </section>
     </div>
   );
