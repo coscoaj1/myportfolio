@@ -1,9 +1,7 @@
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import Hero from "../components/Hero";
-import Skills from "../components/Skills";
 import Projects from "../components/Projects";
-import Contact from "../components/Contact";
 import Modal from "../components/Modal";
 import About from "../components/About";
 
@@ -25,12 +23,10 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Hero passHref />
-        {/* <Skills passHref /> */}
       </div>
       <div>
         <Projects passHref handleClick={handleClick} />
         <About passHref />
-        {/* <Contact passHref /> */}
       </div>
     </div>
   );

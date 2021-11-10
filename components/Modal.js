@@ -1,4 +1,3 @@
-import React, { useEffect, useRef, useState } from "react";
 import ReactDOM from "react-dom";
 import { IoCloseOutline } from "react-icons/io5";
 import VideoPlayer from "./VideoPlayer";
