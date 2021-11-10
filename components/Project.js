@@ -3,41 +3,45 @@ import Image from "next/image";
 import { FiExternalLink } from "react-icons/fi";
 import { MdOndemandVideo } from "react-icons/md";
 import { AiFillGithub } from "react-icons/ai";
-import { FaAirbnb } from "react-icons/fa";
 
-function Project({ onClick, projectTitle, projectDescription, projectTech }) {
+function Project({
+  onClick,
+  projectTitle,
+  projectDescription,
+  projectTech,
+  projectVideo,
+  projectLink,
+  projectImage,
+  projectGithub,
+  icon,
+  video,
+}) {
   return (
-    <div className="p-4 sm:mt-4 flex flex-col sm:flex-row items-center justify-around gap-12 bg-[#171719]  w-full h-auto">
-      <a
-        className="rounded-lg "
-        target="_blank"
-        href="https://airbnbnextclone.vercel.app"
-      >
+    <div className="p-4 sm:mt-4 flex flex-col sm:flex-row items-center justify-around gap-12 bg-[#171719]  w-full h-auto border-b border-gray-700">
+      <a className="rounded-lg " target="_blank" href={projectLink}>
         <button>
-          <Image src="/images/91374dark.jpg" width={600} height={500} />
+          <Image src={projectImage} width={600} height={500} />
         </button>
       </a>
       <div className="flex flex-col gap-1 w-96 py-4 bg-[#1e1e1e] shadow-lg p-2 items-center justify-center rounded-lg">
-        <div>
-          <FaAirbnb className="h-10 w-10 text-gray-300 text-left" />
-        </div>
+        <div>{icon}</div>
         <div className="text-2xl text-left pt-2 mb-4 font-medium text-[#818cf8] rounded-md">
           {projectTitle}
         </div>
-        <div className="text-gray-400 p-4 text-center w-full rounded-md">
+        <div className="w-full p-4 text-center text-gray-400 rounded-md">
           {projectDescription}
         </div>
-        <div className="flex justify-center gap-8 w-full text-gray-300 p-2 rounded-md">
+        <div className="flex items-center justify-center w-full gap-8 p-2 text-gray-300 rounded-md">
           <button title="Preview" onClick={onClick}>
-            <MdOndemandVideo className="w-6 h-6" />
+            {video ? <MdOndemandVideo className="w-6 h-6" /> : null}
           </button>
-          <a href="https://github.com/coscoaj1/airbnbnextclone" target="_blank">
+          <a href={projectGithub} target="_blank">
             <button title="Github">
               {" "}
               <AiFillGithub className="w-6 h-6" />
             </button>
           </a>
-          <a target="_blank" href="https://airbnbnextclone.vercel.app">
+          <a target="_blank" href={projectLink}>
             <button title="External Link">
               <FiExternalLink className="w-6 h-6" />
             </button>
