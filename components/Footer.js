@@ -1,15 +1,15 @@
-import React from "react";
-import Image from "next/image";
-import { CgCoffee } from "react-icons/cg";
+import React from 'react';
+import Image from 'next/image';
+import { CgCoffee } from 'react-icons/cg';
 
 function Footer() {
-  return (
-    <footer className="flex items-center justify-center w-full h-20  bg-[#121212] text-gray-300">
-      <button className="flex items-center justify-center gap-2 text-gray-300">
-        Powered by <CgCoffee className="w-8 h-8 text-gray-300" />
-      </button>
-    </footer>
-  );
+	return (
+		<footer className="flex items-center justify-center w-full h-16  bg-[#818cf8] text-gray-300">
+			<button className="flex items-center justify-center gap-2 text-gray-300">
+				Powered by <CgCoffee className="w-8 h-8 text-gray-300" />
+			</button>
+		</footer>
+	);
 }
 
 export default Footer;
