@@ -9,7 +9,7 @@ function Projects({ handleClick }) {
 			title: 'Full-Stack Airbnb Clone',
 			description:
 				'Users can sign in, search for rentals with a custom date picker, and create their own listings.',
-			tech: 'Next.js Node Express MongoDB AWS S3 Google Maps API TailwindCSS Vercel',
+			tech: 'Next.js Node Express MongoDB AWS S3 Google Maps API TailwindCSS Vercel Axios',
 			link: 'https://airbnbnextclone.vercel.app',
 			github: 'https://github.com/coscoaj1/airbnbnextclone',
 			image: '/images/91374dark.jpg',
@@ -31,7 +31,7 @@ function Projects({ handleClick }) {
 			title: 'Catlify',
 			description:
 				'Users can sign in, submit their favorite blogs for review, and like/comment on existing blog submissions.',
-			tech: 'React MUI 5 Node.js Express MongoDB Heroku',
+			tech: 'React Material-UI Node.js Express MongoDB Heroku',
 			link: 'https://airbnbnextclone.vercel.app',
 			github: 'https://github.com/coscoaj1/bloglist-frontend',
 			image: '/images/91374dark.jpg',
