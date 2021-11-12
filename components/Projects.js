@@ -20,7 +20,7 @@ function Projects({ handleClick }) {
       title: "Remote Destinations",
       description:
         "A simple landing page with a parallax scrolling background image",
-      tech: "React, React-Router-Dom, TailwindCSS, Netlify",
+      tech: "React React-Router-Dom TailwindCSS Netlify",
       link: "https://remote-destinations.netlify.app/",
       github: "https://github.com/coscoaj1/landing_page",
       image: "/images/remote.jpg",
@@ -31,10 +31,10 @@ function Projects({ handleClick }) {
       title: "Catlify",
       description:
         "Users can sign in, submit their favorite blogs for review, and like/comment on existing blog submissions.",
-      tech: "React, MUI 5, Node.js, Express, MongoDB",
+      tech: "React MUI 5 Node.js Express MongoDB React-Router-Dom Vercel",
       link: "https://airbnbnextclone.vercel.app",
       github: "https://github.com/coscoaj1/bloglist-frontend",
-      image: "/images/91374dark.jpg",
+      image: "/images/Catlify.jpg",
       icon: <FaMapSigns />,
       video: false,
     },
