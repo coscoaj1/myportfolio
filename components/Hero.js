@@ -18,16 +18,18 @@ function Hero() {
 									<AiFillGithub className="z-10 w-6 h-6 text-gray-300" />
 								</button>
 							</a>
-							<button>
-								<AiFillLinkedin className="w-6 h-6 text-gray-300" />
-							</button>
+							<a href="https://www.linkedin.com/in/coscoaj1/" target="_blank">
+								<button>
+									<AiFillLinkedin className="w-6 h-6 text-gray-300" />
+								</button>
+							</a>
 						</div>
 						<div className="flex flex-col w-12 mt-4 ml-8 border-l border-gray-500 h-36"></div>
 					</div>
 					<div className="flex flex-col items-center justify-center h-auto">
 						<section className="z-10 flex flex-col w-full text-gray-300">
 							<div className="flex flex-col items-center justify-center gap-2 font-bold text-gray-300 sm:gap-5 sm:pl-4 sm:justify-start sm:items-start">
-								<div className="text-xl italic text-center text-3xl">
+								<div className="italic text-center text-3xl">
 									<span className="text-[#03d8c5] text-3xl"> Anthony</span>{' '}
 									Cosco
 								</div>
