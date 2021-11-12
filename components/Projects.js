@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Project from './Project';
 import { VscProject } from 'react-icons/vsc';
-import { FaAirbnb, FaMapSigns } from 'react-icons/fa';
+import { FaAirbnb, FaRegFileCode } from 'react-icons/fa';
+import { GrDocumentUser } from 'react-icons/gr';
 
 function Projects({ handleClick }) {
 	const project = [
@@ -17,14 +18,14 @@ function Projects({ handleClick }) {
 			video: true,
 		},
 		{
-			title: 'Remote Destinations',
+			title: 'Personal Portfolio',
 			description:
-				'A simple landing page with a parallax scrolling background image',
-			tech: 'React React-Router-Dom TailwindCSS Netlify',
-			link: 'https://remote-destinations.netlify.app/',
-			github: 'https://github.com/coscoaj1/landing_page',
-			image: '/images/remote.jpg',
-			icon: <FaMapSigns className="w-10 h-10 text-left text-gray-300" />,
+				'My custom built Portfolio Website. Features a dark theme and a video preview of the featured project.',
+			tech: ' Next.js React TailwindCSS Vercel ',
+			link: 'https://anthonycosco.dev',
+			github: 'https://github.com/coscoaj1/myportfolio',
+			image: '/images/portfolio.jpg',
+			icon: <FaRegFileCode className="w-10 h-10 text-left text-gray-300" />,
 			video: false,
 		},
 		{
@@ -35,7 +36,7 @@ function Projects({ handleClick }) {
 			link: 'https://airbnbnextclone.vercel.app',
 			github: 'https://github.com/coscoaj1/bloglist-frontend',
 			image: '/images/catlify.jpg',
-			icon: <FaMapSigns />,
+			icon: <FaRegFileCode className="w-10 h-10 text-left text-gray-300" />,
 			video: false,
 		},
 	];
