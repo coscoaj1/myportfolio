@@ -38,7 +38,7 @@ function Skills() {
           </div>
         </div>
         <div>
-          <div className="flex flex-col items-center justify-center mx-4 border border-gray-300 w-96 h-96 rounded-xl">
+          <div className="flex flex-col items-center justify-around mx-4 border border-gray-300 w-96 h-96 rounded-xl">
             <div className="pt-8">
               <Image
                 src="/icons/node-js-icon-11.jpg"
@@ -47,7 +47,7 @@ function Skills() {
               />
             </div>
             <div>
-              <Image src="/icons/mongodb-ar21.svg" width={232} height={100} />
+              <Image src="/icons/mongodb.svg" width={232} height={100} />
             </div>
             <div>
               <FaGit className="w-16 h-16 text-gray-300" />
