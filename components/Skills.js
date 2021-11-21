@@ -15,7 +15,7 @@ function Skills() {
 				</div>
 			</div>
 			<div className="flex flex-col flex-wrap items-center justify-center w-full h-auto gap-8 mt-8 mb-24 md:flex-row max-w-screen sm:w-full">
-				<div className="z-10 flex justify-around py-2 text-left border border-gray-300 p-9 w-96 h-60 rounded-xl mx-4">
+				<div className="z-10 flex justify-around py-2 text-left border border-gray-300 p-9 h-60 rounded-xl mx-4 sm:w-96">
 					<Image
 						src="/icons/12340106921551942641.svg"
 						width={110}
