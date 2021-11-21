@@ -19,7 +19,7 @@ function About() {
 					<BsPersonLinesFill className="z-10 w-20 h-20 text-center text-gray-300" />
 				</div>
 				<div className="z-10 flex flex-col">
-					<div className="my-8 mx-2 text-xl text-gray-300 w-96">
+					<div className="my-8 text-center px-2 text-xl text-gray-300 w-96">
 						I am a self-taught <span className="text-[#818cf8]">developer</span>{' '}
 						with a passion for <span className="text-[#818cf8]">frontend</span>{' '}
 						engineering in React and
