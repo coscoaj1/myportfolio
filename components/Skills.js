@@ -15,7 +15,7 @@ function Skills() {
 				</div>
 			</div>
 			<div className="flex flex-col flex-wrap items-center justify-center w-full h-auto gap-8 mt-8 mb-24 md:flex-row max-w-screen sm:w-full">
-				<div className="z-10 flex justify-around py-2 text-left border border-gray-300 p-9 h-60 rounded-xl mx-4 sm:w-96">
+				<div className="z-10 flex justify-around py-2 text-left border border-gray-300 p-9 h-60 rounded-xl mx-4 w-80 sm:w-96">
 					<Image
 						src="/icons/12340106921551942641.svg"
 						width={110}
@@ -28,8 +28,8 @@ function Skills() {
 						className="text-gray-300 fill-current"
 					/>
 				</div>
-				<div className="grid border border-gray-300 place-items-center w-96 h-72 rounded-xl">
-					<div className="p-4">
+				<div className="grid border border-gray-300 place-items-center sm:w-96 w-80 h-72 rounded-xl">
+					<div className="sm:p-4">
 						<Image
 							src="/icons/PinClipart.com_eclipse-swt-plugin_3368555.png"
 							width={310}
@@ -38,7 +38,7 @@ function Skills() {
 					</div>
 				</div>
 				<div>
-					<div className="flex flex-col items-center justify-around mx-4 border border-gray-300 w-96 h-96 rounded-xl">
+					<div className="flex flex-col items-center justify-around mx-4 border border-gray-300 w-80 sm:w-96 h-96 rounded-xl">
 						<div className="pt-8">
 							<Image
 								src="/icons/node-js-icon-11.jpg"
