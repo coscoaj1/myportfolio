@@ -12,7 +12,7 @@ function Hero() {
 			<Header />
 			<div className="flex flex-col">
 				<div className="flex flex-row h-[100vh] text-gray-300 justify-center sm:justify-start">
-					<div className="z-10 flex flex-col items-center justify-center w-6 h-full sm:gap-2">
+					<div className="z-10 flex flex-col items-center justify-center w-6 h-full sm:gap-2 -mr-2">
 						<div className="flex flex-col w-12 gap-4 sm:ml-3">
 							<a
 								href="https://drive.google.com/file/d/1IOw5WuJmErTKxc8vGNdj9-oT6b48jfD6/view?usp=sharing"
