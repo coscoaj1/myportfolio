@@ -17,6 +17,8 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <html lang="en" />
+
         <title>Anthony Cosco Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
