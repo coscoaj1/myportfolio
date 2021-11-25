@@ -36,7 +36,7 @@ function Project({
       </a>
       <div className="flex flex-col gap-1 w-96 py-4 bg-[#272727] shadow-lg p-2 items-center justify-center rounded-lg">
         <div className="text-gray-300">{icon}</div>
-        <div className="w-full text-center text-2xl pt-2 mb-4 font-medium text-[#818cf8] rounded-md">
+        <div className="w-full text-center text-2xl pt-2 mb-4 font-medium text-[#808af9] rounded-md">
           {projectTitle}
         </div>
         <div className="w-full p-4 text-center text-gray-400 rounded-md">
@@ -68,7 +68,7 @@ function Project({
             </button>
           </a>
         </div>
-        <div className="italic text-center font-light text-[#818cf8] w-60 text-sm rounded-md">
+        <div className="italic text-center font-light text-[#808af9] w-60 text-sm rounded-md">
           {projectTech}
         </div>
       </div>
