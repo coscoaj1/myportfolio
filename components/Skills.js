@@ -8,7 +8,7 @@ function Skills() {
     <div className="relative w-screen py-6">
       <div>
         <div className="flex flex-col items-center justify-center w-full gap-2">
-          <p className="z-10 w-full text-5xl text-center font-bold text-[#828cf8]">
+          <p className="z-10 w-full text-5xl text-center font-bold text-[#808af9]">
             Skills
           </p>
           <FaCode className="w-20 h-20 text-gray-300" />

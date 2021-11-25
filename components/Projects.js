@@ -46,7 +46,7 @@ function Projects({ handleClick }) {
       <div className="flex flex-col items-center justify-center w-full gap-4">
         <div
           id="projects"
-          className="mt-3 pt-3 text-5xl text-center text-[#828cf8] font-bold"
+          className="mt-3 pt-3 text-5xl text-center text-[#808af9] font-bold"
         >
           Projects
         </div>
