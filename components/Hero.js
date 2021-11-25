@@ -62,7 +62,7 @@ function Hero() {
                 </div>
                 <div className="flex flex-row justify-center text-4xl sm:text-5xl lg:text-6xl xl:text-7xl sm:justify-start">
                   <div>Frontend </div>{" "}
-                  <div className="text-[#818cf8]">Developer</div>
+                  <div className="text-[#808af9]">Developer</div>
                 </div>
                 <div className="my-2 text-3xl font-medium text-center text-gray-300 md:text-4xl sm:text-left">
                   and <span className="text-[#03d8c5]">JavaScript </span>
