@@ -144,7 +144,7 @@ function Contact() {
                     <div className="relative">
                       <button
                         type="submit"
-                        className="bg-[#03d8c5] text-white font-medium rounded-3xl px-7 py-2 mt-2 transition transform active:scale-90 duration-150"
+                        className="bg-[#03d8c5] text-black font-medium rounded-3xl px-7 py-2 mt-2 transition transform active:scale-90 duration-150"
                       >
                         Submit
                       </button>
