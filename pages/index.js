@@ -1,4 +1,3 @@
-import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
@@ -14,17 +13,10 @@ export default function Home() {
 
   return (
     <div className="w-screen">
-      <Head>
-        <html lang="en"></html>
-      </Head>
       <Modal onClose={() => setShowModal(false)} show={showModal}>
         Hello from the modal!
       </Modal>
       <div className=" max-w-screen">
-        <Head>
-          <title>Anthony Cosco Portfolio</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
         <Hero passHref />
       </div>
       <div>
