@@ -13,7 +13,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  -webkit-box-shadow: 0 0 0 30px rgba(30, 30, 30, 1) inset !important;
+  -webkit-box-shadow: 0 0 0 30px rgba(66, 66, 66, 1) inset !important;
 }
 input:-webkit-autofill {
   -webkit-text-fill-color: rgba(255, 255, 255, 1) !important;

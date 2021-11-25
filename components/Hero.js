@@ -15,6 +15,7 @@ function Hero() {
           <div className="z-10 flex-col items-center justify-center hidden w-12 h-full sm:flex sm:gap-2">
             <div className="flex flex-col w-12 gap-4 sm:ml-3">
               <a
+                aria-label="resume link"
                 href="https://drive.google.com/file/d/13uVcSGz3rtQrFSZyp3OocCzHGLuzm79U/view?usp=sharing"
                 target="_blank"
               >
@@ -25,12 +26,20 @@ function Hero() {
                   />
                 </button>
               </a>
-              <a href="https://github.com/coscoaj1" target="_blank">
+              <a
+                href="https://github.com/coscoaj1"
+                target="_blank"
+                aria-label="github link"
+              >
                 <button title="Github" className="w-12 h-12">
                   <AiFillGithub className="z-10 w-6 h-6 text-gray-300" />
                 </button>
               </a>
-              <a href="https://www.linkedin.com/in/coscoaj1" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/coscoaj1"
+                target="_blank"
+                aria-label="linkedin link"
+              >
                 <button>
                   <AiFillLinkedin
                     title="LinkedIn"
