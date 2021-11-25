@@ -6,7 +6,10 @@ function Header() {
   return (
     <header className="top-0 z-10 max-w-full flex w-full p-3 text-[#fafafa] font-light">
       <div className="flex-grow">
-        <button className="font-medium sm:text-3xl md:text-4xl text-xl text-[#03d8c5]"></button>
+        <button
+          aria-label="logo placeholder"
+          className="font-medium sm:text-3xl md:text-4xl text-xl text-[#03d8c5]"
+        ></button>
       </div>
       <div className="z-50 flex justify-end w-screen gap-6 pr-12 text-lg">
         <MobileDropdownMenu className="z-50" />

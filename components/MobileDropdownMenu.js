@@ -9,8 +9,16 @@ function MobileDropdownMenu() {
 
   return (
     <Menu as="div" className="z-50 w-full sm:hidden">
-      <Menu.Button className="absolute right-6 top-6">
-        <Image src="/icons/icons8-menu.svg" width={30} height={30} />
+      <Menu.Button
+        aria-label="mobile dropdown menu"
+        className="absolute right-6 top-6"
+      >
+        <Image
+          alt="hamburger menu"
+          src="/icons/icons8-menu.svg"
+          width={30}
+          height={30}
+        />
       </Menu.Button>
       <Transition
         className="absolute left-0 z-50 w-screen"
