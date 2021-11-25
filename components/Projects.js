@@ -35,7 +35,7 @@ function Projects({ handleClick }) {
       tech: "React Material-UI Node.js Express MongoDB Heroku",
       link: "https://blogreviews.netlify.app/",
       github: "https://github.com/coscoaj1/bloglist-frontend",
-      image: "/images/BlogScreenshot.webp",
+      image: "/images/Blog.webp",
       icon: <MdPostAdd className="w-10 h-10 text-left text-gray-300" />,
       video: false,
     },
