@@ -64,7 +64,7 @@ function Contact() {
                         id="name"
                         name="name"
                         type="name"
-                        className="peer placeholder-transparent h-10 w-full text-gray-300 focus:outline-none bg-[#424242]"
+                        className="peer placeholder-transparent h-10 w-full text-gray-200 focus:outline-none bg-[#424242]"
                         placeholder="Name"
                       />
                       <ErrorMessage
@@ -77,7 +77,7 @@ function Contact() {
                       />
                       <label
                         htmlFor="name"
-                        className="absolute left-0 -top-3.5 text-gray-300 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-300 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-300 peer-focus:text-sm"
+                        className="absolute left-0 -top-3.5 text-gray-200 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-300 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-200 peer-focus:text-sm"
                       >
                         Full Name
                       </label>
@@ -88,7 +88,7 @@ function Contact() {
                         id="email"
                         name="email"
                         type="email"
-                        className="bg-[#424242] peer placeholder-transparent h-10 w-full border-b- border-gray-700 text-gray-900 focus:outline-none"
+                        className="bg-[#424242] peer placeholder-transparent h-10 w-full border-b- border-gray-700 text-gray-200 focus:outline-none"
                         placeholder="Email address"
                       />
                       <ErrorMessage
@@ -102,7 +102,7 @@ function Contact() {
 
                       <label
                         htmlFor="email"
-                        className="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-300 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-300 peer-focus:text-sm"
+                        className="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-200 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-300 peer-focus:text-sm"
                       >
                         Email Address
                       </label>
@@ -117,7 +117,7 @@ function Contact() {
                         name="message"
                         type="message"
                         placeholder="Message"
-                        className="bg-[#424242] peer placeholder-transparent h-30 w-full text-gray-300 focus:outline-none focus:borer-rose-600"
+                        className="bg-[#424242] peer placeholder-transparent h-30 w-full text-gray-200 focus:outline-none focus:borer-rose-600"
                       />
                       <ErrorMessage
                         name="message"
@@ -129,7 +129,7 @@ function Contact() {
                       />
                       <label
                         htmlFor="message"
-                        className="absolute pb-2 left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-300 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-300 peer-focus:text-sm"
+                        className="absolute pb-2 left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-200 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-300 peer-focus:text-sm"
                       >
                         Message:
                       </label>
