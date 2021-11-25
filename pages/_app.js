@@ -17,14 +17,10 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <html lang="en" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <title>Anthony Cosco Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
       </Head>
       <Component {...pageProps} />
       <Footer />
