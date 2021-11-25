@@ -15,6 +15,7 @@ function Hero() {
           <div className="z-10 flex-col items-center justify-center hidden w-12 h-full sm:flex sm:gap-2">
             <div className="flex flex-col w-12 gap-4 sm:ml-3">
               <a
+                rel="noopener"
                 aria-label="resume link"
                 href="https://drive.google.com/file/d/13uVcSGz3rtQrFSZyp3OocCzHGLuzm79U/view?usp=sharing"
                 target="_blank"
@@ -27,6 +28,7 @@ function Hero() {
                 </button>
               </a>
               <a
+                rel="noopener"
                 href="https://github.com/coscoaj1"
                 target="_blank"
                 aria-label="github link"
@@ -36,6 +38,7 @@ function Hero() {
                 </button>
               </a>
               <a
+                rel="noopener"
                 href="https://www.linkedin.com/in/coscoaj1"
                 target="_blank"
                 aria-label="linkedin link"
@@ -67,6 +70,7 @@ function Hero() {
                 </div>
                 <div className="flex flex-row items-center justify-center w-12 gap-8 sm:hidden sm:ml-3">
                   <a
+                    rel="noopener"
                     href="https://drive.google.com/file/d/1IOw5WuJmErTKxc8vGNdj9-oT6b48jfD6/view?usp=sharing"
                     target="_blank"
                   >
@@ -77,12 +81,17 @@ function Hero() {
                       />
                     </button>
                   </a>
-                  <a href="https://github.com/coscoaj1" target="_blank">
+                  <a
+                    rel="noopener"
+                    href="https://github.com/coscoaj1"
+                    target="_blank"
+                  >
                     <button title="Github">
                       <AiFillGithub className="z-10 w-8 h-8 text-gray-300" />
                     </button>
                   </a>
                   <a
+                    rel="noopener"
                     href="https://www.linkedin.com/in/coscoaj1"
                     target="_blank"
                   >

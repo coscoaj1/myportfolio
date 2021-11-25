@@ -19,6 +19,7 @@ function Project({
   return (
     <div className="p-4 sm:mt-4 flex flex-col sm:flex-row items-center justify-around gap-12 bg-[#171719]  w-full h-auto border-b border-gray-700">
       <a
+        rel="noopener"
         className="rounded-lg "
         target="_blank"
         href={projectLink}
@@ -45,13 +46,23 @@ function Project({
           <button title="Preview" onClick={onClick}>
             {video ? <MdOndemandVideo className="w-6 h-6" /> : null}
           </button>
-          <a href={projectGithub} target="_blank" aria-label="github link">
+          <a
+            rel="noopener"
+            href={projectGithub}
+            target="_blank"
+            aria-label="github link"
+          >
             <button title="Github">
               {" "}
               <AiFillGithub className="w-6 h-6" />
             </button>
           </a>
-          <a target="_blank" href={projectLink} aria-label="project link">
+          <a
+            rel="noopener"
+            target="_blank"
+            href={projectLink}
+            aria-label="project link"
+          >
             <button title="External Link">
               <FiExternalLink className="w-6 h-6" />
             </button>
