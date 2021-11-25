@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { CgCoffee } from "react-icons/cg";
 
 function Footer() {
