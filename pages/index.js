@@ -15,7 +15,6 @@ export default function Home() {
   return (
     <div className="w-screen">
       <Head>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <html lang="en"></html>
       </Head>
       <Modal onClose={() => setShowModal(false)} show={showModal}>
