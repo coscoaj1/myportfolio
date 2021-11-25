@@ -9,15 +9,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-          <html lang="en" />
-          <title>Anthony Cosco Portfolio</title>
-          <link rel="icon" href="/favicon.ico" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          ></meta>
-        </Head>
+        <Head />
 
         <body>
           <Main />
