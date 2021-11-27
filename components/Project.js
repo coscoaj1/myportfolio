@@ -34,11 +34,11 @@ function Project({
           />
         </button>
       </a>
-      <div className="flex flex-col gap-1 w-96 py-4 bg-[#202020] shadow-lg p-2 items-center justify-center rounded-lg">
+      <div className="flex flex-col gap-1 w-96 py-4 bg-[#202020] p-2 items-center justify-center">
         <h1 className="text-sm font-bold tracking-widest text-white text-opacity-[87%] uppercase">
           {framework}
         </h1>
-        <div className="w-full text-center text-2xl pt-2 mb-4 font-medium text-[#808af9] rounded-md">
+        <div className="w-full text-center text-3xl pt-2 mb-4 font-medium text-[#808af9] rounded-md">
           {projectTitle}
         </div>
         <div className="w-[85%] p-4 text-center text-white rounded-md text-opacity-60 mx-1">

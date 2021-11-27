@@ -10,7 +10,7 @@ function Projects({ handleClick }) {
       title: "Full-Stack Airbnb Clone",
       description:
         "Users can sign in, search for rentals with a custom date picker, and create their own listings.",
-      tech: "Next.js Node Express MongoDB AWS S3 Google Maps API TailwindCSS Vercel Axios",
+      tech: "Next.js Node Express MongoDB AWS S3 Google Maps API TailwindCSS Vercel",
       link: "https://airbnbnextclone.vercel.app",
       github: "https://github.com/coscoaj1/airbnbnextclone",
       image: "/images/Airbnb.webp",

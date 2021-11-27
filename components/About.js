@@ -16,12 +16,12 @@ function About() {
           <div className="z-10 mt-24 text-5xl font-medium text-white">
             About<span className="text-[#808af9]">Me</span>
           </div>
-          <BsPersonLinesFill className="z-10 w-20 h-20 text-center text-gray-300" />
+          <BsPersonLinesFill className="z-10 w-8 h-8 text-center text-gray-400" />
         </div>
         <div className="z-10 flex flex-col">
-          <div className="my-8 text-center px-2 text-xl text-gray-300 w-96">
+          <div className="px-2 my-8 text-xl text-center text-gray-100 w-96">
             I am a self-taught <span className="text-[#808af9]">developer</span>{" "}
-            with a passion for <span className="text-[#808af9]">frontend</span>{" "}
+            with a love for <span className="text-[#808af9]">frontend</span>{" "}
             engineering in React and
             <span className="text-[#808af9]"> Next.js.</span> My homebase is in
             Asheville, NC. I can help{" "}
@@ -31,9 +31,9 @@ function About() {
             to expand my developer career.
           </div>
           <div className="flex flex-row items-center justify-center gap-2">
-            <DiStackoverflow className="w-12 h-12 text-gray-300" />
-            <DiDatabase className="w-12 h-12 text-gray-300" />
-            <DiGitPullRequest className="w-12 h-12 text-gray-300" />
+            <DiStackoverflow className="w-8 h-8 text-gray-400" />
+            <DiDatabase className="w-8 h-8 text-gray-400" />
+            <DiGitPullRequest className="w-8 h-8 text-gray-400" />
           </div>
         </div>
       </div>

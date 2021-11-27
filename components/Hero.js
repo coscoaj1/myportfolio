@@ -64,10 +64,10 @@ function Hero() {
                   <div>Frontend </div>{" "}
                   <div className="text-[#808af9]">Developer</div>
                 </div>
-                <div className="my-2 text-3xl font-medium text-center text-white text-opacity-[87%] md:text-4xl sm:text-left">
+                {/* <div className="my-2 text-3xl font-medium text-center text-white text-opacity-[87%] md:text-4xl sm:text-left">
                   and <span className="text-[#03d8c5]">JavaScript </span>
                   enthusiast.
-                </div>
+                </div> */}
                 <div className="flex flex-row items-center justify-center w-12 gap-8 sm:hidden sm:ml-3">
                   <a
                     rel="noopener"
