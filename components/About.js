@@ -23,7 +23,7 @@ function About() {
             I am a self-taught <span className="text-[#808af9]">developer</span>{" "}
             with a love for <span className="text-[#808af9]">frontend</span>{" "}
             engineering in React and
-            <span className="text-[#808af9]"> Next.js.</span> My homebase is in
+            <span className="text-[#808af9]"> Next.js.</span> My homebase is
             Asheville, NC. I can help{" "}
             <span className="text-[#808af9]">solve complex problems</span> for
             your company, and am willing and eager to learn{" "}

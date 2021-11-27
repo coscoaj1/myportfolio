@@ -44,12 +44,12 @@ function Projects({ handleClick }) {
   return (
     <div className="max-w-screen bg-[#121212]">
       <div className="flex flex-col items-center justify-center w-full gap-4">
-        <div
+        <h1
           id="projects"
-          className="mt-3 pt-3 text-6xl text-center text-[#808af9] font-bold"
+          className="mt-3 py-3 text-6xl text-center text-[#808af9] font-bold"
         >
           Projects
-        </div>
+        </h1>
       </div>
       <section className="flex flex-col items-center justify-center w-screen sm:h-auto">
         {project.map((item) => {
