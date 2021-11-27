@@ -50,9 +50,6 @@ function Projects({ handleClick }) {
         >
           Projects
         </div>
-        <div className="text-center">
-          <VscProject className="text-center text-gray-200 w-14 h-14" />
-        </div>
       </div>
       <section className="flex flex-col items-center justify-center w-screen sm:h-auto">
         {project.map((item) => {

@@ -35,7 +35,7 @@ function Project({
         </button>
       </a>
       <div className="flex flex-col gap-1 w-96 py-4 bg-[#202020] shadow-lg p-2 items-center justify-center rounded-lg">
-        <h1 className="text-sm font-medium tracking-widest text-gray-300 uppercase">
+        <h1 className="text-sm font-bold tracking-widest text-white text-opacity-[87%] uppercase">
           {framework}
         </h1>
         <div className="w-full text-center text-2xl pt-2 mb-4 font-medium text-[#808af9] rounded-md">
