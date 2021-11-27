@@ -26,7 +26,9 @@ function Contact() {
         <div className="relative px-4 py-6  bg-[#272727] shadow-lg rounded-3xl sm:p-20">
           <div className="max-w-md mx-auto">
             <div>
-              <h1 className="text-4xl font-bold text-gray-300">Contact Form</h1>
+              <h1 className="text-4xl font-bold text-white text-opacity-[87%]">
+                Contact Form
+              </h1>
             </div>
             <div className="w-full h-auto divide-y divide-gray-200">
               <Formik
