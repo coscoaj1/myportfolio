@@ -17,7 +17,7 @@ function Project({
   video,
 }) {
   return (
-    <div className="p-4 sm:mt-4 flex flex-col sm:flex-row items-center justify-around gap-12 bg-[#121212]  w-full h-auto border-b border-gray-700">
+    <div className="p-4 sm:mt-4 flex flex-col sm:flex-row items-center justify-around sm:gap-8 bg-[#121212]  w-full h-auto border-b border-gray-700">
       <a
         rel="noopener"
         className="rounded-lg "
@@ -34,7 +34,7 @@ function Project({
           />
         </button>
       </a>
-      <div className="flex flex-col gap-1 w-96 py-4 bg-[#202020] p-2 items-center justify-center">
+      <div className="sm:mr-12 flex flex-col gap-1 w-96 py-4 bg-[#202020] p-2 items-center justify-center">
         <h1 className="text-sm font-bold tracking-widest text-white text-opacity-[87%] uppercase">
           {framework}
         </h1>
