@@ -14,7 +14,7 @@ function Projects({ handleClick }) {
       link: "https://airbnbnextclone.vercel.app",
       github: "https://github.com/coscoaj1/airbnbnextclone",
       image: "/images/Airbnb.webp",
-      icon: <FaAirbnb className="w-10 h-10 text-left text-gray-300" />,
+      framework: "React.js",
       video: true,
     },
     {
@@ -25,7 +25,7 @@ function Projects({ handleClick }) {
       link: "https://anthonycosco.dev",
       github: "https://github.com/coscoaj1/myportfolio",
       image: "/images/portfolio.webp",
-      icon: <FaRegFileCode className="w-10 h-10 text-left text-gray-300" />,
+      framework: "React.js",
       video: false,
     },
     {
@@ -36,22 +36,22 @@ function Projects({ handleClick }) {
       link: "https://blogreviews.netlify.app/",
       github: "https://github.com/coscoaj1/bloglist-frontend",
       image: "/images/Blog.webp",
-      icon: <MdPostAdd className="w-10 h-10 text-left text-gray-300" />,
+      framework: "React.js",
       video: false,
     },
   ];
 
   return (
-    <div className="max-w-screen bg-[#171719]">
+    <div className="max-w-screen bg-[#121212]">
       <div className="flex flex-col items-center justify-center w-full gap-4">
         <div
           id="projects"
-          className="mt-3 pt-3 text-5xl text-center text-[#808af9] font-bold"
+          className="mt-3 pt-3 text-6xl text-center text-[#808af9] font-bold"
         >
           Projects
         </div>
         <div className="text-center">
-          <VscProject className="w-20 h-20 text-center text-gray-300" />
+          <VscProject className="text-center text-gray-200 w-14 h-14" />
         </div>
       </div>
       <section className="flex flex-col items-center justify-center w-screen sm:h-auto">
@@ -65,7 +65,7 @@ function Projects({ handleClick }) {
               projectLink={item.link}
               projectGithub={item.github}
               projectImage={item.image}
-              icon={item.icon}
+              framework={item.framework}
               video={item.video}
               key={item.title}
             />
