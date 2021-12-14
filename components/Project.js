@@ -13,11 +13,11 @@ function Project({
   projectLink,
   projectImage,
   projectGithub,
-  icon,
+  framework,
   video,
 }) {
   return (
-    <div className="p-4 sm:mt-4 flex flex-col sm:flex-row items-center justify-around gap-12 bg-[#171719]  w-full h-auto border-b border-gray-700">
+    <div className="p-4 sm:mt-4 flex flex-col sm:flex-row items-center justify-around sm:gap-8 bg-[#121212]  w-full h-auto border-b border-gray-700">
       <a
         rel="noopener"
         className="rounded-lg "
@@ -34,15 +34,17 @@ function Project({
           />
         </button>
       </a>
-      <div className="flex flex-col gap-1 w-96 py-4 bg-[#272727] shadow-lg p-2 items-center justify-center rounded-lg">
-        <div className="text-gray-300">{icon}</div>
-        <div className="w-full text-center text-2xl pt-2 mb-4 font-medium text-[#808af9] rounded-md">
+      <div className="sm:mr-12 flex flex-col gap-1 w-96 py-4 bg-[#202020] p-2 items-center justify-center mb-24 sm:mb-0">
+        <h1 className="text-sm font-bold tracking-widest text-white text-opacity-[87%] uppercase">
+          {framework}
+        </h1>
+        <div className="w-full text-center text-3xl pt-2 mb-4 font-medium text-[#808af9] rounded-md">
           {projectTitle}
         </div>
-        <div className="w-full p-4 text-center text-gray-400 rounded-md">
+        <div className="w-[85%] p-4 text-center text-white rounded-md text-opacity-60 mx-1">
           {projectDescription}
         </div>
-        <div className="flex items-center justify-center w-full gap-8 p-2 text-gray-300 rounded-md">
+        <div className="flex items-center justify-center w-full gap-8 p-2 text-gray-400 rounded-md">
           <button title="Preview" onClick={onClick}>
             {video ? <MdOndemandVideo className="w-6 h-6" /> : null}
           </button>

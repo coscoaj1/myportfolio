@@ -10,11 +10,11 @@ function Projects({ handleClick }) {
       title: "Full-Stack Airbnb Clone",
       description:
         "Users can sign in, search for rentals with a custom date picker, and create their own listings.",
-      tech: "Next.js Node Express MongoDB AWS S3 Google Maps API TailwindCSS Vercel Axios",
+      tech: "Next.js Node Express MongoDB AWS S3 Google Maps API TailwindCSS Vercel",
       link: "https://airbnbnextclone.vercel.app",
       github: "https://github.com/coscoaj1/airbnbnextclone",
       image: "/images/Airbnb.webp",
-      icon: <FaAirbnb className="w-10 h-10 text-left text-gray-300" />,
+      framework: "React.js",
       video: true,
     },
     {
@@ -25,7 +25,7 @@ function Projects({ handleClick }) {
       link: "https://anthonycosco.dev",
       github: "https://github.com/coscoaj1/myportfolio",
       image: "/images/portfolio.webp",
-      icon: <FaRegFileCode className="w-10 h-10 text-left text-gray-300" />,
+      framework: "React.js",
       video: false,
     },
     {
@@ -36,23 +36,20 @@ function Projects({ handleClick }) {
       link: "https://blogreviews.netlify.app/",
       github: "https://github.com/coscoaj1/bloglist-frontend",
       image: "/images/Blog.webp",
-      icon: <MdPostAdd className="w-10 h-10 text-left text-gray-300" />,
+      framework: "React.js",
       video: false,
     },
   ];
 
   return (
-    <div className="max-w-screen bg-[#171719]">
+    <div className="max-w-screen bg-[#121212]">
       <div className="flex flex-col items-center justify-center w-full gap-4">
-        <div
+        <h1
           id="projects"
-          className="mt-3 pt-3 text-5xl text-center text-[#808af9] font-bold"
+          className="mt-3 py-3 text-6xl text-center text-[#808af9] font-bold"
         >
           Projects
-        </div>
-        <div className="text-center">
-          <VscProject className="w-20 h-20 text-center text-gray-300" />
-        </div>
+        </h1>
       </div>
       <section className="flex flex-col items-center justify-center w-screen sm:h-auto">
         {project.map((item) => {
@@ -65,7 +62,7 @@ function Projects({ handleClick }) {
               projectLink={item.link}
               projectGithub={item.github}
               projectImage={item.image}
-              icon={item.icon}
+              framework={item.framework}
               video={item.video}
               key={item.title}
             />

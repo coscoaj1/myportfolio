@@ -26,7 +26,9 @@ function Contact() {
         <div className="relative px-4 py-6  bg-[#272727] shadow-lg rounded-3xl sm:p-20">
           <div className="max-w-md mx-auto">
             <div>
-              <h1 className="text-4xl font-bold text-gray-300">Contact Form</h1>
+              <h1 className="text-4xl font-bold text-white text-opacity-[87%]">
+                Contact Form
+              </h1>
             </div>
             <div className="w-full h-auto divide-y divide-gray-200">
               <Formik
@@ -64,20 +66,20 @@ function Contact() {
                         id="name"
                         name="name"
                         type="name"
-                        className="peer placeholder-transparent h-10 w-full text-gray-200 focus:outline-none bg-[#424242]"
+                        className="peer placeholder-transparent h-10 w-full text-gray-200 focus:outline-none bg-[#424242] px-2"
                         placeholder="Name"
                       />
                       <ErrorMessage
                         name="name"
                         render={(msg) => (
-                          <div className="text-red-500 bg-[#1232323]">
+                          <div className="px-1 text-red-500 bg-[#1232323]">
                             {msg}
                           </div>
                         )}
                       />
                       <label
                         htmlFor="name"
-                        className="absolute left-0 -top-3.5 text-gray-200 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-300 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-200 peer-focus:text-sm"
+                        className="absolute left-0 -top-3.5 text-gray-200 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-300 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-200 peer-focus:text-sm px-1"
                       >
                         Full Name
                       </label>
@@ -88,13 +90,13 @@ function Contact() {
                         id="email"
                         name="email"
                         type="email"
-                        className="bg-[#424242] peer placeholder-transparent h-10 w-full border-b- border-gray-700 text-gray-200 focus:outline-none"
+                        className="bg-[#424242] peer placeholder-transparent h-10 w-full border-b- border-gray-700 text-gray-200 focus:outline-none px-1"
                         placeholder="Email address"
                       />
                       <ErrorMessage
                         name="email"
                         render={(msg) => (
-                          <div className="text-red-500 bg-[#1232323]">
+                          <div className=" text-red-500 bg-[#1232323] px-1">
                             {msg}
                           </div>
                         )}
@@ -102,7 +104,7 @@ function Contact() {
 
                       <label
                         htmlFor="email"
-                        className="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-200 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-300 peer-focus:text-sm"
+                        className="px-1 absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-200 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-300 peer-focus:text-sm"
                       >
                         Email Address
                       </label>
@@ -117,19 +119,19 @@ function Contact() {
                         name="message"
                         type="message"
                         placeholder="Message"
-                        className="bg-[#424242] peer placeholder-transparent h-30 w-full text-gray-200 focus:outline-none focus:borer-rose-600"
+                        className="px-1 bg-[#424242] peer placeholder-transparent h-30 w-full text-gray-200 focus:outline-none focus:borer-rose-600"
                       />
                       <ErrorMessage
                         name="message"
                         render={(msg) => (
-                          <div className="text-red-500 bg-[#1232323]">
+                          <div className="px-1 text-red-500 bg-[#1232323]">
                             {msg}
                           </div>
                         )}
                       />
                       <label
                         htmlFor="message"
-                        className="absolute pb-2 left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-200 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-300 peer-focus:text-sm"
+                        className="px-1 absolute pb-2 left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-200 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-300 peer-focus:text-sm"
                       >
                         Message:
                       </label>
@@ -144,7 +146,7 @@ function Contact() {
                     <div className="relative">
                       <button
                         type="submit"
-                        className="bg-[#03d8c5] text-black font-medium rounded-3xl px-7 py-2 mt-2 transition transform active:scale-90 duration-150"
+                        className="bg-[#03d8c5] text-green-900 font-medium rounded-3xl px-7 py-2 mt-2 transition transform active:scale-90 duration-150"
                       >
                         Submit
                       </button>

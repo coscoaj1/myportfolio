@@ -54,8 +54,8 @@ function Hero() {
             <div className="flex flex-col w-12 ml-8 border-l border-gray-500 h-36"></div>
           </div>
           <div className="flex flex-col items-center justify-center h-auto mr-2">
-            <section className="z-10 flex flex-col w-full text-gray-300">
-              <div className="flex flex-col items-center justify-center gap-2 font-bold text-gray-300 sm:gap-5 sm:pl-4 sm:justify-start sm:items-start">
+            <section className="z-10 flex flex-col w-full">
+              <div className="flex flex-col items-center justify-center gap-2 font-bold text-gray-50 sm:gap-5 sm:pl-4 sm:justify-start sm:items-start">
                 <div className="text-xl italic text-center md:text-2xl">
                   Hi, I'm
                   <span className="text-[#03d8c5] text-3xl"> Anthony.</span>
@@ -64,10 +64,10 @@ function Hero() {
                   <div>Frontend </div>{" "}
                   <div className="text-[#808af9]">Developer</div>
                 </div>
-                <div className="my-2 text-3xl font-medium text-center text-gray-300 md:text-4xl sm:text-left">
+                {/* <div className="my-2 text-3xl font-medium text-center text-white text-opacity-[87%] md:text-4xl sm:text-left">
                   and <span className="text-[#03d8c5]">JavaScript </span>
                   enthusiast.
-                </div>
+                </div> */}
                 <div className="flex flex-row items-center justify-center w-12 gap-8 sm:hidden sm:ml-3">
                   <a
                     rel="noopener"
