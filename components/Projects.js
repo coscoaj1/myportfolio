@@ -18,12 +18,11 @@ function Projects({ handleClick }) {
       video: true,
     },
     {
-      title: "Portfolio",
-      description:
-        "My custom built Portfolio Website. Features a dark theme and a video preview of the featured project.",
-      tech: " Next.js React TailwindCSS Vercel ",
-      link: "https://anthonycosco.dev",
-      github: "https://github.com/coscoaj1/myportfolio",
+      title: "Vital Gear Shop",
+      description: "Headless Shopify E-Commerce Website",
+      tech: " Next.js React Shopify TailwindCSS  ",
+      link: "https://vital-gearshop.vercel.app/",
+      github: "https://github.com/coscoaj1/shopify_headless",
       image: "/images/portfolio.webp",
       framework: "React.js",
       video: false,
