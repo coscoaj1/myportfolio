@@ -14,13 +14,13 @@ function Projects({ handleClick }) {
       link: "https://airbnbnextclone.vercel.app",
       github: "https://github.com/coscoaj1/airbnbnextclone",
       image: "/images/Airbnb.webp",
-      framework: "Next.js",
+      framework: "Next.js + Node.js",
       video: true,
     },
     {
       title: "Vital Gear Shop",
       description: "Headless Shopify E-Commerce Website",
-      tech: " Next.js React Shopify TailwindCSS  ",
+      tech: " Next.js React Shopify Storefront API TailwindCSS",
       link: "https://vital-gearshop.vercel.app/",
       github: "https://github.com/coscoaj1/shopify_headless",
       image: "/images/portfolio.webp",
@@ -38,17 +38,17 @@ function Projects({ handleClick }) {
       framework: "Node.js + React.js",
       video: false,
     },
-    // {
-    //   title: "NASA Image Gallery",
-    //   description:
-    //     "Image gallery driven by NASA Image of the day API",
-    //   tech: "React Node.js Express MySQL AWS S3 Heroku",
-    //   link: "https://inventory-crud.netlify.app/",
-    //   github: "https://github.com/coscoaj1/inventory_tracker",
-    //   image: "/images/inventory-screenshot.webp",
-    //   framework: "Node.js + React.js",
-    //   video: false,
-    // },
+    {
+      title: "My Spacebook",
+      description:
+        "Image gallery driven by the NASA Astronomy Picture of the day API",
+      tech: "React NASA-APOD-API TailwindCSS ",
+      link: "https://nasa-api-project.vercel.app/",
+      github: "https://github.com/coscoaj1/nasa-api-project",
+      image: "/images/nasa-api-screenshot.webp",
+      framework: "React.js",
+      video: false,
+    },
     {
       title: "BlogReviews",
       description:
