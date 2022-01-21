@@ -15,7 +15,7 @@ function Hero() {
           <div className="z-10 flex-col items-center justify-center hidden w-12 h-full sm:flex sm:gap-2">
             <div className="flex flex-col w-12 gap-4 sm:ml-3">
               <a
-                rel="noopener"
+                rel="noreferrer"
                 aria-label="resume link"
                 href="https://docs.google.com/document/d/1qQRnFqnyDxC-rNV1sK89LQNFjfB-vcjifJx2v_wkttA/edit?usp=sharing"
                 target="_blank"
