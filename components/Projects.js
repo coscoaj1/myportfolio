@@ -1,16 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import Project from "./Project";
-import { VscProject } from "react-icons/vsc";
-import { FaAirbnb, FaRegFileCode } from "react-icons/fa";
-import { MdPostAdd } from "react-icons/md";
 
 function Projects({ handleClick }) {
   const project = [
     {
       title: "Airbnb Clone",
       description:
-        "Users can sign in, search for rentals with a custom date picker, and create their own listings.",
-      tech: "Next.js Node Express MongoDB AWS S3 Google Maps API TailwindCSS Vercel",
+        "Features include custom search bar with date range picker and location autocomplete, create new listing functionality, and authentication.",
+      tech: "Next.js Node Express MongoDB Amazon S3 Google Maps API TailwindCSS Vercel",
       link: "https://airbnbnextclone.vercel.app",
       github: "https://github.com/coscoaj1/airbnbnextclone",
       image: "/images/Airbnb.webp",
@@ -19,7 +16,8 @@ function Projects({ handleClick }) {
     },
     {
       title: "Vital Gear Shop",
-      description: "Headless Shopify E-Commerce Website",
+      description:
+        "Headless E-Commerce Website with Shopify Storefront API integration and a Nordic theme",
       tech: " Next.js React Shopify Storefront API TailwindCSS",
       link: "https://vital-gearshop.vercel.app/",
       github: "https://github.com/coscoaj1/shopify_headless",
@@ -30,8 +28,8 @@ function Projects({ handleClick }) {
     {
       title: "Inventory Tracker",
       description:
-        "Simple inventory tracking full-stack CRUD app including thumbnail image uploads",
-      tech: "React ChakraUI Node.js Express MySQL AWS S3 Heroku",
+        "Full-stack inventory tracking CRUD app, including thumbnail image upload with Amazon S3 storage and auto resizing with Sharp.",
+      tech: "React ChakraUI Node.js Express MySQL Amazon S3/RDS Heroku Netlify",
       link: "https://inventory-crud.netlify.app/",
       github: "https://github.com/coscoaj1/inventory_tracker",
       image: "/images/inventory-screenshot.webp",
@@ -41,12 +39,12 @@ function Projects({ handleClick }) {
     {
       title: "My Spacebook",
       description:
-        "Image gallery driven by the NASA Astronomy Picture of the day API",
+        "Image gallery driven by the NASA Astronomy Picture of the day API.",
       tech: "React NASA-APOD-API TailwindCSS ",
       link: "https://nasa-api-project.vercel.app/",
       github: "https://github.com/coscoaj1/nasa-api-project",
       image: "/images/nasa-api-screenshot.webp",
-      framework: "React.js",
+      framework: "React",
       video: false,
     },
     {
@@ -57,7 +55,7 @@ function Projects({ handleClick }) {
       link: "https://blogreviews.netlify.app/",
       github: "https://github.com/coscoaj1/bloglist-frontend",
       image: "/images/Blog.webp",
-      framework: "Node.js + React.js",
+      framework: "Node.js + React",
       video: false,
     },
   ];

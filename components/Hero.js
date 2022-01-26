@@ -28,7 +28,7 @@ function Hero() {
                 </button>
               </a>
               <a
-                rel="noopener"
+                rel="noreferrer"
                 href="https://github.com/coscoaj1"
                 target="_blank"
                 aria-label="github link"
@@ -38,7 +38,7 @@ function Hero() {
                 </button>
               </a>
               <a
-                rel="noopener"
+                rel="noreferrer"
                 href="https://www.linkedin.com/in/coscoaj1"
                 target="_blank"
                 aria-label="linkedin link"
@@ -82,7 +82,7 @@ function Hero() {
                     </button>
                   </a>
                   <a
-                    rel="noopener"
+                    rel="noreferrer"
                     href="https://github.com/coscoaj1"
                     target="_blank"
                   >
@@ -91,7 +91,7 @@ function Hero() {
                     </button>
                   </a>
                   <a
-                    rel="noopener"
+                    rel="noreferrer"
                     href="https://www.linkedin.com/in/coscoaj1"
                     target="_blank"
                   >

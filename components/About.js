@@ -20,10 +20,9 @@ function About() {
         </div>
         <div className="z-10 flex flex-col items-center justify-center">
           <p className="max-w-4xl px-2 my-8 text-xl leading-relaxed text-center text-gray-100 sm:w-2/3">
-            I am a self-taught developer with a love for frontend engineering in
-            React and Next.js. I also dabble in Node.js. My homebase is
-            Asheville, NC. I am willing and eager to learn new technologies to
-            expand my developer career.
+            I am a self-taught software developer with a love for problem
+            solving. My homebase is Asheville, NC. I am willing and eager to
+            learn new technologies.
           </p>
           <div className="flex flex-row items-center justify-center gap-2">
             <DiStackoverflow className="w-8 h-8 text-gray-400" />
