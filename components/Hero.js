@@ -71,7 +71,7 @@ function Hero() {
                 <div className="flex flex-row items-center justify-center w-12 gap-8 sm:hidden sm:ml-3">
                   <a
                     rel="noreferrer"
-                    href="https://drive.google.com/file/d/1zlb66ERvqjtElapVTlDl0tQVlU3GZugr/view?usp=sharing"
+                    href="https://docs.google.com/document/d/1qQRnFqnyDxC-rNV1sK89LQNFjfB-vcjifJx2v_wkttA/edit?usp=sharing"
                     target="_blank"
                   >
                     <button>
